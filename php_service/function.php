@@ -493,7 +493,7 @@ function isLike($u_id, $p_id){
     // DBへ接続
     $dbh = dbConnect();
     // SQL文作成
-    $sql = 'SELECT * FROM `like` WHERE product_id = :p_id AND user_id = :u_id';
+    $sql = 'SELECT * FROM `like` WHERE product_id = :p_id AND user_id = :u_id';  // LIKEのようなMYSQLの予約語は、''バッククォテーションで囲う。
     $data = array(':u_id' => $u_id, ':p_id' => $p_id);
     // クエリ実行
     $stmt = queryPost($dbh, $sql, $data);
@@ -516,7 +516,7 @@ function getMyLike($u_id){
     // DBへ接続
     $dbh = dbConnect();
     // SQL文作成
-    $sql = 'SELECT * FROM `like` AS l LEFT JOIN product AS p ON l.product_id = p.id WHERE l.user_id = :u_id';
+    $sql = 'SELECT * FROM `like` AS l LEFT JOIN product AS p ON l.product_id = p.id WHERE l.user_id = :u_id';  // JOINさせるのは、表示させたい情報で条件はIDを使う。
     $data = array(':u_id' => $u_id);
     // クエリ実行
     $stmt = queryPost($dbh, $sql, $data);

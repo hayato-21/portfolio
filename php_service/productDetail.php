@@ -181,7 +181,7 @@ require('head.php');
             </div>
           </form>
           <div class="item-right">
-            <p class="price">¥<?php echo sanitize(number_format($viewData['price'])); ?>-</p>  <!-- DBから値を取り出す時は 数値型でも文字列のため、数値に変換してあげる。-->
+            <p class="price">¥<?php echo sanitize(number_format($viewData['price'])); ?>-</p>  <!-- number_formatは、千位ごとに、カンマを追加する。-->
           </div>
         </div>
 
