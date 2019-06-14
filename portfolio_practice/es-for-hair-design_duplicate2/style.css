@@ -1,0 +1,183 @@
+html,body{
+  width: 100%;
+  color: #444;
+  font-size: 16px;
+  line-height: 1.6;
+  text-size-adjust: 100%;
+  letter-spacing: 0.1em; 
+}
+.site-width{
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+}
+@media screen and (max-width: 414px){
+    .site-width{
+        width: 100%;
+    }
+}
+.header{
+    background-image: url("images/main_bg04_sp.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+@media screen and (max-width:414px){
+    .header{
+        height: 500px;
+    }
+}
+.header-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.header .logo{
+    width: 300px;
+    position: relative;
+    top: 200px;
+}
+@media screen and (max-width: 414px){
+    .header .logo{
+        top: 100px;
+        width: 250px;
+    }
+}
+.header .nav-container{
+     width: 100%;
+}
+.header .nav-container ul{
+    position: relative;
+    top: 320px;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width: 414px){
+    .header .nav-container ul{
+        top: 200px;
+    }
+}
+.header .nav-container li{
+    float: left;
+    font-size: 32px;
+}
+.header .nav-container li a{
+    display: block;
+    color: #fff;
+}
+@media screen and (max-width: 414px){
+    .header .nav-container li{
+        font-size: 20px;
+    }
+}
+.header .nav-container li a:hover{
+    text-decoration: none;
+}
+.title{
+    font-size: 40px;
+    margin: 100px 0;
+    font-family: 'Crimson Text', serif;
+}
+.title-top{
+    font-family: 'Oswald', sans-serif;
+}
+.punctuate-bar{
+    display: block;
+    border-top: 5px solid #444;
+    width: 15%;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.under-font{
+    text-decoration: underline;
+    margin-bottom: 50px;
+    font-size: 20px;
+    
+}
+.bold-font{
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 18px;
+}
+.bold-font-light{
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 600; /* 正確に指定するには、font-familyを指定する。 */
+}
+.light-weight{
+    font-size: 12px;
+    line-height: 150%;
+    font-weight: lighter;
+}
+.bar-space{
+    margin-top: 100px;  /* これは、セクションにつけるべきだった。 */
+}
+.tile-margin-bottom{
+    margin-bottom: 20px;
+}
+.big-font{
+    font-size: 24px;
+}
+.price-table{
+    margin-top: 50px;
+    width: 50%;
+    font-size: 24px;
+    font-weight: bold;
+}
+@media screen and (max-width: 414px){
+    .price-table{
+        font-size: 18px;
+        width: 70%;
+    }
+}
+.price-table th{
+    padding: 15px 0px;
+}
+.th-left{
+    text-align: left;
+}
+.th-right{
+    text-align: right;
+}
+.creditUnitMap iframe{  /* デフォルトの位置の設定とアイコンの設定が必要。 */
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 100px;
+}
+@media screen and (max-width: 414px){
+    .creditUnitMap iframe{
+        height: 300px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+.btn{
+    padding: 10px 200px;
+    border: 1px solid #444;
+    background: #fff;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+@media screen and (max-width: 414px){
+    .btn{
+        padding: 5px 100px;
+        font-size: 12px;
+    }
+}
+footer p{
+    font-size: 5px;
+    padding: 30px 0;
+    border-top: 1px solid #999;
+    opacity: 0.5;
+    text-align: center;
+}

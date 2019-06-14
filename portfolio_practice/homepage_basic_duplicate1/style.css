@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+}
+.site-width{ /*headerに初めは、margin:0 auto;を指定したが、反応がなかったためクラスを指定した*/
+    width: 980px;
+    margin: 0 auto;
+}
+header{
+    height:200px;
+}
+.logo{ /*position:absolute; relativeをを指定したが、わからなかった。*/
+    float: left;
+    background: lightgray;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border-radius:100px;
+    font-size: 18px;
+    text-align: center;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+.logo a:hover{
+    text-decoration: underline;
+}
+.nav{
+    float: right;
+}
+.nav li{
+    float: left;
+    list-style: none;
+    padding-right: 20px;
+    line-height: 250px;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+.nav li a:hover{
+    text-decoration: underline;
+}
+.img{
+    margin-top:-50px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+#about{
+    text-align: center;
+}
+#about p{
+    text-align: left;
+    margin-bottom: 80px;
+}
+#merit{
+    text-align: center;
+}
+.box{
+    width: 300px; /*inline-blockで指定するとカラム落ちする。*/
+    height: 400px;
+    background: lightgray;
+    float: left; /*floatにするとmeritと少し中心がずれるが、marginを調整することで中心に対応した*/
+    padding: 20px 10px 0px 10px;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+}
+/*混乱するので、マージンで開けたいときはfloatで、密着しているとき、incline*/
+.box h3{
+    font-size:20px;
+}
+.box p{
+    text-align: left;
+}
+.box1{
+    margin-left: 20px; /*3つとも対象に指定しないとMERIRTの中心がずれる*/
+}
+.box2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.table{
+    text-align: left;
+    width: 100%;
+    border: 1px solid lightgray;
+    background: rgb(235, 235, 235);
+    margin-bottom: 80px;
+}
+.table th{
+    font-size: 20px;
+    color: orange;
+    padding: 10px 30px 10px 10px;
+    border-bottom: 1px dotted lightgray;
+}
+.table td{
+    border-bottom: 1px dotted lightgray;
+}
+.bold{
+    font-weight: bold;
+}
+.gold{
+    color: rgb(97, 83, 7);
+}
+footer{
+    background:black;
+    color: white;
+    text-align:center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+}
+footer a{
+    color: white;
+}
+.contact{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.contact h2{
+    text-align: center;
+    margin-top: 100px; /*line-heightがtext-align:center;を邪魔していたため、下げた。*/
+}
+input[type="text"] {
+    width: 100%;
+    background: lightgray;
+    margin-bottom: 10px;
+    padding:10px;
+    font-size: 20px;
+    border: 0px;
+    box-sizing: border-box;
+}
+textarea{
+    width: 100%;
+    background: lightgray;
+    padding: 10px;
+    font-size: 20px;
+    border: 0px;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    display: block;
+    font-size: 15px;
+    padding: 15px 30px 15px 30px;
+    background: black;
+    color: white;
+    float: right;
+}

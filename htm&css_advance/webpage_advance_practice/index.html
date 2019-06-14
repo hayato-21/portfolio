@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- scssを使うときは、必ずこの一行を入れる。細かく理解している人は少ない。-->
+  <title>レスポンシブデザインページ</title>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="./reset.css"> <!-- 順番を間違えないこと -->
+  <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header js-float-menu">
+      <h1 class="title">Responsive Design</h1>
+        
+      <div class="menu-trigger js-toggle-sp-menu">
+        <span></span>  
+        <span></span>  
+        <span></span>  
+      </div>
+        
+      <nav class="nav-menu js-toggle-sp-menu-target">
+        <ul class="menu">
+          <li class="menu-item"><a class="menu-link" href="">TOP</a></li>  
+          <li class="menu-item"><a class="menu-link" href="#news">NEWS</a></li>  
+          <li class="menu-item"><a class="menu-link" href="#about">ABOUT</a></li>  
+          <li class="menu-item"><a class="menu-link" href="#staff">STAFF</a></li>  
+          <li class="menu-item"><a class="menu-link" href="#cource">COURCE</a></li>  
+          <li class="menu-item"><a class="menu-link" href="#contact">CONTACT</a></li>  
+        </ul>  
+      </nav>
+    </header>
+    
+    <main>
+      <section class="hero container-fluid js-float-menu-target">
+        <h2 class="hero-title">Responsive Design<br>is so good.</h2>
+      </section>
+        
+      <section class="container container-ornament" id="news">
+        <h2 class="container-title"><span>NEWS</span></h2> 
+        <div class="container-body">
+          <ul class="news">
+              
+            <li class="news-item">
+                <a class="news-link">
+                    <span class="news-date">2019.12.31</span>
+                    <span class="news-title">サンプルタイトルサンプルテキストサンプルテキストサンプルタイトルサンプルテキストサンプルテキスト</span>
+                </a>
+            </li>
+            
+            <li class="news-item">
+                <a class="news-link">
+                    <span class="news-date">2019.12.31</span>
+                    <span class="news-title">サンプルタイトルサンプルテキストサンプルテキストサンプルタイトルサンプルテキストサンプルテキスト</span>
+                </a>
+            </li>
+            
+            <li class="news-item">
+                <a class="news-link">
+                    <span class="news-date">2019.12.31</span>
+                    <span class="news-title">サンプルタイトルサンプルテキストサンプルテキストサンプルタイトルサンプルテキストサンプルテキスト</span>
+                </a>
+            </li>
+          </ul>  
+        </div>
+      </section>
+        
+      <section class="bgColor-lightGray" id="about"> <!-- 全体の背景色をつける -->
+        <div class="container container-lightGray">
+          <h2 class="container-title container-title-lightGray"><span>ABOUT</span></h2>
+          <div class="container-body">
+            <p>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+          </div>
+        </div>  
+      </section>
+        
+      <section class="container container-ornament" id="staff">
+          <h2 class="container-title"><span>STAFF</span></h2>
+          <div class="container-body">
+            <div class="panel-group panel-group-float">
+              <a href="" class="panel panel-hover panel-staff">
+              <div class="panel-body">
+                <img src="images/staff1.jpg" alt="">  
+              </div>  
+            </a>
+            
+            <a href="" class="panel panel-hover panel-staff">
+              <div class="panel-body">
+                <img src="images/staff2.jpeg" alt="">  
+              </div>  
+            </a>
+            
+            <a href="" class="panel panel-hover panel-staff">
+              <div class="panel-body">
+                <img src="images/staff3.jpeg" alt="">  
+              </div>  
+            </a>
+              
+            <a href="" class="panel panel-hover panel-staff">
+              <div class="panel-body">
+                <img src="images/staff4.jpg" alt="">  
+              </div>  
+            </a>
+              
+            <a href="" class="panel panel-hover panel-staff">
+              <div class="panel-body">
+                <img src="images/staff5.jpg" alt="">  
+              </div>  
+            </a>
+            
+            <a href="" class="panel panel-hover panel-staff">
+              <div class="panel-body">
+                <img src="images/staff6.jpg" alt="">  
+              </div>  
+            </a>
+              
+            <a href="" class="panel panel-hover panel-staff">
+              <div class="panel-body">
+                <img src="images/staff1.jpg" alt="">  
+              </div>  
+            </a>
+              
+            <a href="" class="panel panel-hover panel-staff">
+              <div class="panel-body">
+                <img src="images/staff2.jpeg" alt="">  
+              </div>  
+            </a>
+            </div>
+            
+              
+          </div>
+      </section>
+        
+      <section class="bgColor-lightGray" id="cource">
+        <div class="container container-lightGray">
+          <h2 class="container-title"><span>COURCE</span></h2>
+            
+          <div class="container-body">
+              
+            <div class="panel-group panel-group-flex">
+                
+              <div class="panel panel-border panel-cource">
+                <div class="panel-head">
+                  <span class="ft-corp ft-l">Bussiness</span>  
+                </div>
+                <div class="panel-body">
+                  <img src="images/price1.jpg" alt="">
+                </div>
+                <div class="panel-foot">
+                  <p>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+                </div>
+              </div>  
+                
+              <div class="panel panel-border panel-cource panel-active">
+                  <span class="panel-badge">オス<br>スメ</span>
+                  <div class="panel-head">
+                    <span class="ft-corp ft-l">Advance</span>
+                  </div>
+                  <div class="panel-body">
+                  <img src="images/price2.jpg" alt="">
+                </div>
+                <div class="panel-foot">
+                  <p>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+                </div>
+              </div>
+                
+              <div class="panel panel-border panel-cource">
+                <div class="panel-head">
+                  <span class="ft-corp ft-l">Beginners</span>  
+                </div>
+                <div class="panel-body">
+                  <img src="images/price3.jpg" alt="">
+                </div>
+                <div class="panel-foot">
+                  <p>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+                </div>
+              </div>  
+            </div>      
+          </div>
+        </div>  
+      </section>
+        
+      <section class="container container-ornament" id="contact">
+        <h2 class="container-title"><span>CONTACT</span></h2> 
+        <div class="container-body">
+          <form action="" class="form form-m">
+            <input class="input input-l" type="text" placeholder="お名前">
+            <input class="input input-l" type="text" placeholder="お名前">
+            <textarea class="input input-l input-textarea mb-xx1" placeholder="お問い合わせ内容"></textarea>
+            <button class="btn btn-corp btn-l">送信</button>
+          </form>  
+        </div>
+      </section>
+    </main>
+    
+    <footer class="footer">
+      <p>Copyright © webukatu. All Rights Reserved</p>
+    </footer>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
+<!-- まとめサイト　https://www.manicyouth.jp/webdesign-matome-cafe/ -->
+<!-- お問い合わせにdisabled,先頭のパネルにmodalの追加 -->

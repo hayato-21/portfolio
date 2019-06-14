@@ -1,0 +1,171 @@
+/*
+body{
+  background: #f6f5f4;
+  color: #333;
+}
+#main{
+  background: #fff;
+  width: 980px;
+  padding: 40px;
+  box-sizing: border-box;
+  margin: 100px auto;
+  text-align: center;
+  border-radius: 3px;
+  overflow: hidden;
+}
+img{
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
+.person-translate1,.person-translat2,.person-translate3,.person-translate4{
+    transition: all 1s;
+}
+.person-translate1{
+    transform: rotate(3deg);
+    opacity: 0.7;
+}
+.person-translate1:hover{
+    transform: translateY(100px) translateX(100px);
+    transition: all 1s;
+}
+.person-translate2{
+    transform: rotate(3deg);
+    
+}
+.person-translate2:hover{
+    transform: scale(1.3,1.3);
+    transition: all 1s;
+}
+.person-translate3{
+    transform: skewX(-5deg);
+}
+.person-translate4{
+    transform: skewX(-5deg);
+    opacity: 0.7;
+}
+*/
+body{
+  background: #f6f5f4;
+  color: #333;
+}
+#main{
+  background: #fff;
+  width: 980px;
+  padding: 40px;
+  box-sizing: border-box;
+  margin: 100px auto;
+  text-align: center;
+  border-radius: 3px;
+}
+.section{
+    margin-bottom: 50px;
+}
+.section::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.col-6{ 
+    width: 50%;
+    float: left;
+    margin-right: 10px;  /* ここのmargin^の解説が必要。ここのmarginの意味を理解していないから、ライトボックスがうまくつくれない。*/
+    position: relative; /* relative,absolute,はmarginが利く。 absolute,relativeは、paddingの上に乗せることができる？*/
+    /* padding,border-boxで均等に余白の指定ができる。 */
+}
+.col-6:last-child{
+    margin-right: -10px;
+}
+.thumbnail img{
+    width: 100%;
+    vertical-align: bottom;
+    transition: all .25s;
+}
+.thumbnail:hover{
+    cursor:pointer;
+    transition: all .25s;
+}
+.thumbnailCover{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;  /* たしか全ての値を0にすることで、親要素の値をとる？ */
+    transition: all .25s;
+    transform: scale(1.2);
+}
+.thumbnailCover:hover{
+    opacity: 1;
+    transition: all .25s;
+    transform: scale(1);
+}
+.thumbnailCover--sample1{
+    background: rgba(0,0,0,.6);
+}
+.thumbnailCover--sample1 .fa{
+    color: #fff;
+    font-size: 2em;
+    position: relative;
+    top: 43%;
+}
+.thumbnail--sample2{
+    overflow: hidden;
+}
+.thumbnail--sample2 img:hover{
+    transform: scale(1.5) rotate(8deg);
+}
+.fa{
+  font-size: 30px !important;
+  display: block;/* インライン要素 */
+}
+.fa-heart-o{
+  color: #a8a8a8;　/* 色を付け替えるイメージ */
+}
+.fa-heart{
+  color: #e7a0c5;
+}
+.fav{
+  cursor: pointer;
+  transition: all .25s;
+  position: absolute; /*サムネイルではブロック要素だった。*/
+  z-index: 2;
+  background: #fff;
+}
+.fav.is-active{
+  animation: favPushAnimation .2s ease-out; /*animation関数とは、自分で作った関数を使うことができる*/
+}
+.fav2{
+  z-index: 1;
+  position: absolute;
+}
+.fav2.is-active{
+  animation: favMoveAnimation 5s ease-out;
+}
+@keyframes favPushAnimation{ /*@keyframesでアニメーションを作る。*/
+  0%{
+    transform: scale(.7);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+@keyframes favMoveAnimation{
+  0%{
+    z-index: 3;
+    transform: translateY(0) translateX(-3px); /* -3pxは左*/
+  }
+  10%{ transform: translateY(-5px) translateX(3px); } /*上に行くのに、なぜマイナスかは、上に上がることにより、元の要素が下になるからというイメージ。*/
+  20%{ transform: translateY(-10px); }
+  30%{ transform: translateY(-15px); }
+  40%{ transform: translateY(-20px) translateX(-3px); }
+  50%{ transform: translateY(-25px); }
+  60%{ transform: translateY(-30px); }
+  70%{ transform: translateY(-35px) translateX(3px); }
+  80%{ transform: translateY(-40px); }
+  90%{ transform: translateY(-45px); }
+  100%{
+    transform: translateY(-50px) translateX(-3px);
+    opacity: 0;
+  }
+}

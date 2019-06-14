@@ -1,0 +1,413 @@
+@charset "UTF-8";
+html, body {
+  width: 100%;
+  color: #777;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  text-size-adjust: 100%;
+  letter-spacing: 0.1em; }
+
+p, a {
+  -webkit-font-smoothing: antialiased; }
+
+a {
+  color: #777;
+  text-decoration: none;
+  transition: .3s; }
+
+a:hover {
+  color: #e3a8b1;
+  transition: .3s; }
+img{
+    width: 100%;
+    vertical-align: bottom;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    color: #777;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    box-sizing: border-box; /* 指定することで、どちらのpaddingもとることができる。 */
+    z-index: 2;
+    transition: .3s;
+}
+.header.float-active{
+    transition: .3s;
+    background: rgba(255,255,255,0.9);
+}
+@media screen and (max-width: 414px){ /* ほとんどのところで、：がなかった */
+    .header{
+        height: 60px;  /* 小さくなったときに、どこを小さくするべきか考える。 */
+        padding-right: 15px;
+        padding-left: 15px; /* paddingになっていた。 */
+    }
+}
+.header .title{
+    font-size: 30px;
+    font-family: "Amatic SC", cursive;
+    font-weight: bold;
+}
+@media screen and (max-width: 414px){
+    .nav-menu{ /* これは透明なカバーシート */
+        display: block;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        background: rgba(255,255,255,0.85);
+        width: 100%;
+        height: 100vh;
+        padding-top: 50px; /* さっきここがpaddingとなっていたことで、横が行き過ぎていた */
+        transition: .5s;
+    }
+    .nav-menu.active{
+        transition: .5s;
+        transform: translateX(-100%);
+        z-index: 2; /* 透明なカバーシート */
+    }
+}
+.menu{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-family: "Amatic SC", cursive;
+}
+.menu-item{
+    margin-right: 20px;
+}
+.menu-link{
+    -webkit-font-smoothing: initial;
+}
+@media screen and (max-width: 414px){
+    .menu{
+        display: block;  /* menu自体もflexを指定しているため。header*/
+        font-size: 30px;
+    }
+    .menu-item{
+        margin-right: initial;
+    }
+    .menu-link{
+        -webkit-font-smoothing: initial;
+        display: block;  /* menu-linkもflexを指定しているため。.menu */
+        padding: 15px;
+        text-align: center;
+    }
+}
+.menu-trigger{
+    display: none;
+    transition: all .4s;
+    position: relative;
+    width: 40px;
+    height: 32px;
+    z-index: 3; /* 透明カバーのz-indexは、2である。 */
+}
+@media screen and (max-width: 414px){
+    .menu-trigger{
+        display: inline-block; /* ここは、blockでも可 */
+    }
+}
+    .menu-trigger span{
+        display: inline-block; /* ここは、blockでも可 */
+        transition: all .4s;
+        box-sizing: border-box; /* 確かいらない。 */
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        height: 4px;
+        background: #777;
+        border-radius: 4px;
+    }
+    .menu-trigger span:nth-of-type(1){
+        top: 0;
+    }
+    .menu-trigger span:nth-of-type(2){
+        top: 14px;
+    }
+    .menu-trigger span:nth-of-type(3){
+        bottom: 0;
+    }
+    .menu-trigger.active span:nth-of-type(1){
+        transform: translateY(12px) rotate(-45deg);
+    }
+    .menu-trigger.active span:nth-of-type(2){
+        opacity: 0;
+    }
+    .menu-trigger.active span:nth-of-type(3){
+        transform: translateY(-15px) rotate(45deg);
+    }
+.hero{
+    background-image: url("images/hero.jpg");
+    background-attachment: fixed; /* ここで写真を固定する。 */
+    background-position: center; /* ここで写真の中央を合わせる。 */
+    background-size: cover; /* ここで写真のもとの大きさを、画面に合うように調節する */
+    background-repeat: no-repeat;/* ここで、大きさにまで繰り返さない。 */
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-title{
+    font-size: 60px;
+    font-family: "Amatic SC", cursive;
+    color: #fff;
+    text-shadow: 0 0 20px rgba(227,123, 137, 0.4), 0 0 50px rgba(0,0,0,0.8); /* 2重に影を重ねる。 */
+}
+@media screen and (max-width: 414px){
+    .hero-title{
+        text-align: center;
+    }
+}
+.hero br{
+        display: none;
+}
+@media screen and (max-width: 414px){
+    .hero br{
+        display: block;
+    }
+}
+.container{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 120px;    
+}
+@media screen and (max-width: 414px){
+    .container{
+        width: 100%;
+    }
+}
+.container-fluid{
+    width: 100%;  /* ここが：になっていた。 */
+}
+.container-title{
+    font-family: "Amatic SC", cursive;
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 40px;  /* margin-rightとなっていた。 */
+}
+@media screen and (max-width: 414px){
+    .container-title{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 414px){
+    .container-body{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.container-ornament .container-title span{
+    display: inline-block;
+    background: #fff;
+    padding: 0 10px;
+    position: relative;
+    z-index: 1; /* タイトルが上に来るように設置。 */
+}
+.container-ornament .container-title:before, .container-ornament .container-title:after{
+    border-top: 1px solid #2e1f1a;
+    content:'';
+    display: block;
+    position: relative;
+    z-index: 0; /* 装飾が下に来るようにする。 */
+}
+.container-ornament .container-title:before{
+    top: 28px;
+}
+.container-ornament .container-title:after{
+    top: -28px;
+}
+.news{
+    width: 70%;
+    height: 60px;
+    overflow-y: scroll;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #f8f7fc;
+    padding: 15px 20px;
+}
+.news-item{
+    margin-bottom: 5px;
+}
+.news-date{
+    color: #e37b89;
+    font-weight: bold;
+    font-family: "Amatic SC", cursive;
+    -webkit-font-smoothing: initial;
+    margin-right: 10px;
+}
+.news-title{
+    font-size: 14px;
+}
+.panel{
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+    transition: .5s;
+}
+.panel-hover{
+    display: inline-block; /* aタグのスタイルの適用を可能にしてあげる。 */
+    transition: .5s;
+}
+.panel-hover:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: .5s;
+}
+.panel-border{
+    border-radius: 5px;
+    border: 5px solid #f6f5f4;
+}
+.panel-head, .panel-foot{
+    padding: 10px;
+}
+.panel-head{
+    text-align: center;
+    color: #e3a8b1;
+}
+.panel-active{
+    border: 5px solid #e3a8b1;
+}
+.panel-badge{
+    background: #e37b89;
+    color: #fff;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    border-radius: 60px;
+    height: 60px;
+    width: 60px;
+    line-height: 1.3em;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 12px;
+    box-sizing: border-box;
+    transform: rotate(15deg);
+}
+@media screen and (max-width: 414px){
+    .panel-badge{
+        top: -20px;  /* ここの位置はわからないので、ためしながら行う。 */
+        right: -13px;
+    }
+}
+.panel-group{
+    margin-right: -15px;
+}
+.panel-group-float{
+    overflow: hidden;
+}
+.panel-group-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.panel-group .panel{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.panel-staff{
+    width: calc(25% - 15px);
+}
+@media screen and (max-width: 414px){
+    .panel-staff(50% - 15px);
+}
+.panel-cource{
+    width: calc(33.3% - 15px);
+}
+@media screen and (max-width: 414px){
+    .panel-cource{
+        width: 100%;
+        margin: 0 auto 15px auto; /* スマホの場合、下に3つ続くため、下にマージンを指定してあげる。 */
+    }
+}
+.form{
+    width: 100%;
+}
+.form-m{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 414px){
+    .form-m{
+        width: 100%;
+    }
+}
+.input{
+    display: block;
+    margin-bottom: 10px;
+    border: 3px solid #f6f5f4;
+    border-radius: 4px;
+    outline: none; /* todo */
+    height: 60px;
+    font-size: 18px;
+    color: #777;
+    box-sizing: border-box;
+}
+.input-l{
+    padding: 5px 10px;
+    width: 100%;
+}
+.input:focus{
+    border: 3px solide #e3a8b1;
+}
+.input-textarea {
+    height: 200px; }
+
+::placeholder {
+  color: #ccc; }
+.btn {
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: .3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+  .btn:hover {
+    transform: translateY(-3px);
+    transition: .3s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); }
+  .btn-corp {
+    color: #fff;
+    background: #ee9ca7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  .btn-l {  /* ここが１となっていた。 */
+    padding: 15px 30px;
+    width: 100%;
+    font-size: 18px; }
+
+.footer {
+  background: #555;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px; }
+  @media screen and (max-width: 414px) {
+    .footer {
+      font-size: 12px; } }
+
+.bgColor-lightGray {
+  background: #f8f7fc;
+  box-shadow: 0px 0px 8px 2px #ddd inset; }
+.mb-xxl {
+  margin-bottom: 30px; }
+
+.ft-corp {
+  font-weight: bold;
+  font-family: "Amatic SC", cursive; }
+
+.ft-l {
+  font-size: 24px; }

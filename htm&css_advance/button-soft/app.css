@@ -1,0 +1,50 @@
+body{
+  background: #f6f5f4;
+  color: #333;
+}
+#main{
+  background: #fff;
+  width: 980px;
+  padding: 40px;
+  box-sizing: border-box; /*これがないと、980px+40pxで1020pxとなり、はみ出す。*/
+  margin: 100px auto; /*main自体を中央揃えしますよ。*/
+  text-align: center; /*mainの中にあるものを中央揃えしますよーという感じ。*/
+  border-radius: 3px; /*細いけど、こういうところで、オシャレに見える。*/
+}
+.btn{
+  background: #00a4d5;
+  color: white;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 3px;
+  /* ボタンのデフォルトスタイルをOFFに */
+  border: none;
+
+  padding: 20px 100px;
+  box-shadow: 3px 3px 3px #b8b8b8; /*横x軸、縦y軸、ぼけ具合*/
+  /* transitionはアニメーションの機能 */
+  /* transition: 変化させるプロパティ名１　変化までの時間１　変化の仕方１, 変化させるプロパティ名２　変化までの時間２　変化の仕方２, ... */
+  transition: all 1s; /*これがないとアニメーションの間がない。*/
+
+  /*プロパティを個別に複数指定した場合 */
+  /*transition: background 1s, box-shadow 1s, transform 1s;*/
+
+  /*↓はtransitionを細かく設定する方法*/
+  /*transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: unset;*/ /*何も設定しないと、unsetがデフォルトのアニメーションになる。*/
+  /* https://developer.mozilla.org/ja/docs/Web/CSS/transition */
+
+}
+.btn:hover{
+  cursor: pointer;
+  background: #b2d142;
+  transition: all 1s; /*これがないとアニメーションの間がない。*/
+  box-shadow: 3px 10px 20px #c8c8c8; /*ぼけ具合は、遠くなると薄くなるから。*/
+
+  /* transformプロパティは、要素に2D移動・変形、または、3Dで移動・変形をさせるもの */
+  transform: translateY(-10px);
+  /*position: relative; absolute
+    top: -10px; を使っても浮かせることができる。*/
+}

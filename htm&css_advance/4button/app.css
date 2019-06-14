@@ -1,0 +1,92 @@
+body{
+  background: #f6f5f4;
+  color: #333;
+}
+#main{
+  background: #fff;
+  width: 980px;
+  padding: 40px;
+  box-sizing: border-box;
+  margin: 100px auto;
+  text-align: center;
+  border-radius: 3px;
+}
+.section{
+  margin-bottom: 20px;
+}
+.btn{
+  background: #00a4d5;
+  color: white;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 3px;
+  /* ボタンのデフォルトスタイルをOFFに */
+  border: none;
+  padding: 20px 100px;
+  transition: all 1s;
+}
+.btn:hover{
+  cursor: pointer;
+  transition: all 1s;
+  /* https://developer.mozilla.org/ja/docs/Web/CSS/transform */
+}
+.btn--color1{
+  background: #b2d142;
+}
+.btn--color2{
+  background: #dbcc2e;
+}
+.btn--color3{
+  background: #db6b34;
+}
+.btn--translate:hover{
+  /* transformプロパティは、要素に2D移動・変形、または、3Dで移動・変形をさせるもの */
+  /* transform: transform関数() */
+  transform: translateX(100px);
+
+  /* 移動 */
+  /* translate(X方向の移動距離, Y方向の移動距離) */
+  /* translateX(X方向の移動距離) */
+  /* translateY(Y方向の移動距離) */
+  /* translateZ(Z方向の移動距離) */
+  /*　移動距離はpxや％で指定する　*/
+  /*　移動距離は要素の左上が起点になる　*/
+  /*transform: translate(0, -20%);*/
+
+  /*Y方向とZ方向の距離は省略することができるが、この場合のY方向とZ方向の距離は0になる*/ /*perspectiveは奥行きのpxのこと。z方向に動かす際に必ず、必要。この場合、500px移動する前にすでにあり、z方向に100px動くので、奥行きが400pxになる。*/
+  /*transform: perspective(500px) translate3d(50%, 50%, 100px);*/
+
+
+  /* positionでも同じことはできるが、transformの方がGPUを使うため、滑らかに動く */
+}
+.btn--scale:hover{
+  /* 縮尺 */
+  /* scale(X方向の縮尺比率, Y方向の縮尺比率)*/
+  /* scaleX(X方向の縮尺比率)*/
+  /* scaleY(Y方向の縮尺比率)*/
+  /* scaleZ(Z方向の縮尺比率)*/
+  /* scale3d(X方向の縮尺比率, Y方向の縮尺比率, Z方向の縮尺比率)*/
+  /* 「比率」は数値で指定する */
+  transform: scale(2, 2);
+}
+.btn--rotate:hover{
+  /* 回転 */
+  /* rotate(回転角度) */
+  /* rotate3d(数値, 数値, 数値, 回転角度) */
+  /* rotateX(X軸を軸とする回転角度) */
+  /* rotateY(Y軸を軸とする回転角度) */
+  /* rotateZ(Z軸を軸とする回転角度) */
+  /* 回転角度はdegで指定する */
+  transform: rotate(360deg);
+  /*実際には、各ブラウザで対応できるように、
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);*/ /*can i use を見れば、どのバージョンが対応しているか調べる。実際のエンジニアもいる。*/
+}
+.btn--skew:hover{
+  /* 傾斜 */
+  /*skew(X軸の傾斜角度, Y軸の傾斜角度)*/
+  /*skewX(X軸の傾斜角度)*/
+  /*skewY(Y軸の傾斜角度)*/
+  transform: skewY(25deg);
+}

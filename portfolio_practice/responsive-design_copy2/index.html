@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- scssを使うときは、必ずこの一行を入れる。細かく理解している人は少ない。-->
+  <title>WEBUKATU レスポンシブデザインページ</title>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="reset.css"> <!-- 順番を間違えないこと -->
+  <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header js-float-menu">
+      <h1 class="title">Responsive Design</h1>
+      <div class="menu-trigger js-toggle-sp-menu">
+        <span></span>  
+        <span></span>  
+        <span></span>  
+      </div>
+      <nav class="nav-menu js-toggle-sp-menu-target">
+        <ul class="menu">
+          <li class="menu-item"><a class="menu-link" href="">TOP</a></li>
+          <li class="menu-item"><a class="menu-link" href="#news">NEWS</a></li>
+          <li class="menu-item"><a class="menu-link" href="#about">ABOUT</a></li>
+          <li class="menu-item"><a class="menu-link" href="#staff">STAFF</a></li>
+          <li class="menu-item"><a class="menu-link" href="#cource">COURCE</a></li>
+          <li class="menu-item"><a class="menu-link" href="#contact">CONTACT</a></li>
+        </ul>  
+      </nav>
+    </header>
+    <main>
+      <section class="hero container-fluid js-float-menu-target">
+        <h2 class="hero-title">Responsive Design<br> is so good.</h2>  
+      </section>
+      
+      <section class="container container-ornament" id="news">
+        <h2 class="container-title"><span>NEWS</span></h2>
+        <div class="container-body">
+          <ul class="news">
+            <li class="news-item">
+              <a class="news-link" href="">
+                <span class="news-date">2019.6.8</span>
+                <span class="news-title">サンプルNEWSタイトルサンプルNEWSタイトル</span>
+              </a>  
+            </li>
+            <li class="news-item">
+              <a class="news-link" href="">
+                <span class="news-date">2019.6.7</span>
+                <span class="news-title">サンプルNEWSタイトルサンプルNEWSタイトル</span>
+              </a>  
+            </li>
+            <li class="news-item">
+              <a class="news-link" href="">
+                <span class="news-date">2019.6.7</span>
+                <span class="news-title">サンプルNEWSタイトルサンプルNEWSタイトル</span>
+              </a>  
+            </li>
+          </ul>
+        </div>
+      </section>
+        
+      <section class="bgColor-lightGray" id="about">
+        <div class="container container-lightGray">
+          <h2 class="container-title container-title-lightGray"><span>ABOUT</span></h2>
+          <div class="container-body">
+            <p>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプル</p>  
+          </div>
+        </div>  
+      </section>
+        
+      <section class="container container-ornament" id="staff">
+        <h2 class="container-title"><span>STAFF</span></h2>
+        <div class="container-body">
+          <div class="panel-group panel-group-float">
+            <a href="" class="penel panel-hover panel-staff">
+              <div class="panel-body">
+                <img src="img/5.jpg" alt="">  
+              </div>  
+            </a>
+            <a href="" class="penel panel-hover panel-staff">
+              <div class="panel-body">
+                <img src="img/6.jpg" alt="">  
+              </div>  
+            </a>
+            <a href="" class="penel panel-hover panel-staff">
+              <div class="panel-body">
+                <img src="img/7.jpg" alt="">  
+              </div>  
+            </a>
+            <a href="" class="penel panel-hover panel-staff">
+              <div class="panel-body">
+                <img src="img/8.jpg" alt="">  
+              </div>  
+            </a>
+            <a href="" class="penel panel-hover panel-staff">
+              <div class="panel-body">
+                <img src="img/1.jpg" alt="">  
+              </div>  
+            </a>
+            <a href="" class="penel panel-hover panel-staff">
+              <div class="panel-body">
+                <img src="img/2.jpg" alt="">  
+              </div>  
+            </a>
+            <a href="" class="penel panel-hover panel-staff">
+              <div class="panel-body">
+                <img src="img/3.jpg" alt="">  
+              </div>  
+            </a>
+            <a href="" class="penel panel-hover panel-staff">
+              <div class="panel-body">
+                <img src="img/4.jpg" alt="">  
+              </div>  
+            </a>
+          </div>
+        </div>
+      </section>
+        
+      <section class="bgColor-lightGray" id="cource">
+        <div class="container container-lightGray">
+          <h2 class="container-title"><span>COURCE</span></h2>
+          <div class="container-body">
+            <div class="panel-group panel-group-flex">
+                
+              <div class="panel panel-border panel-cource">
+                <div class="panel-head">
+                  <span class="ft-corp ft-1">Vegetables</span>コース  
+                </div>
+                <div class="panel-body">
+                  <img src="img/cource1.jpg" alt="">  
+                </div>
+                <div class="panel-foot">
+                  <p>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>  
+                </div>
+              </div>
+                
+              <div class="panel panel-border panel-cource panel-active">
+                <span class="panel-badge">
+                  オス<br>スメ  
+                </span>
+                <div class="panel-head">
+                  <span class="ft-corp ft-1">Mixing</span>コース  
+                </div>
+                <div class="panel-body">
+                  <img src="img/cource2.jpg" alt="">  
+                </div>
+                <div class="panel-foot">
+                  <p>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>  
+                </div>
+              </div>
+                
+              <div class="panel panel-border panel-cource">
+                <div class="panel-head">
+                  <span class="ft-corp ft-1">Meat</span>コース  
+                </div>
+                <div class="panel-body">
+                  <img src="img/cource3.jpg" alt="">  
+                </div>
+                <div class="panel-foot">
+                  <p>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>  
+                </div>
+              </div>
+                
+            </div> 
+          </div>
+        </div>  
+      </section>
+        
+      <section class="container container-ornament" id="contact">
+        <h2 class="container-title"><span>CONTACT</span></h2>
+        <div class="container-body">
+          <form action="" class="form form-m">
+            <input class="input input-1" type="text" placeholder="お名前">
+            <input class="input input-1" type="email" placeholder="email">
+            <textarea class="input input-1 input-textarea mb-xx1" placeholder="お問い合わせ内容"></textarea>
+            <button class="btn btn-corp btn-1">送信</button>
+          </form>  
+        </div>
+      </section>
+    </main>
+    
+    <footer class="footer">
+      <p>Copyright © Responsive. All Rights Reserved</p>
+    </footer>
+    
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>

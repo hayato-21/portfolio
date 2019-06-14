@@ -1,0 +1,74 @@
+body{
+  background: #f6f5f4;
+  color: #333;
+}
+#main{
+  background: #fff;
+  width: 980px;
+  padding: 40px;
+  box-sizing: border-box;
+  margin: 100px auto;
+  text-align: center;
+  border-radius: 3px;
+}
+.section{
+  margin-bottom: 50px;
+}
+
+.fa{
+  font-size: 30px !important;
+  display: block;
+}
+.fa-heart-o{
+  color: #a8a8a8;
+}
+.fa-heart{
+  color: #e7a0c5;
+}
+.fav{
+  cursor: pointer;
+  transition: all .25s;
+  position: absolute; /*これはインライン要素なので、保持している。サムネイルではブロック要素だった。*/
+  z-index: 2;
+  background: #fff;
+}
+.fav.is-active{
+  animation: favPushAnimation .2s ease-out; /*animation関数とは、自分で作った関数を使うことができる*/
+}
+.fav2{
+  z-index: 1;
+  position: absolute;
+}
+.fav2.is-active{
+  animation: favMoveAnimation 10s ease-out;
+}
+@keyframes favPushAnimation{ /*@keyframesでアニメーションを作る。*/
+  0%{
+    transform: scale(.7);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+@keyframes favMoveAnimation{
+  0%{
+    z-index: 3;
+    transform: translateY(0) translateX(-3px); /* -3pxは左*/
+  }
+  10%{ transform: translateY(-5px) translateX(3px); } /*上に行くのに、なぜマイナスかは、上に上がることにより、元の要素が下になるからというイメージ。*/
+  20%{ transform: translateY(-10px); }
+  30%{ transform: translateY(-15px); }
+  40%{ transform: translateY(-20px) translateX(-3px); }
+  50%{ transform: translateY(-25px); }
+  60%{ transform: translateY(-30px); }
+  70%{ transform: translateY(-35px) translateX(3px); }
+  80%{ transform: translateY(-40px); }
+  90%{ transform: translateY(-45px); }
+  100%{
+    transform: translateY(-50px) translateX(-3px);
+    opacity: 0;
+  }
+}
+
+/* http://easings.net/ja# */ /*これを見れば、アニメーションの仕方がわかる。*/
+/* http://qiita.com/nekoneko-wanwan/items/e8114c6e34d2950a7b28 */ /*@keyframesのアニメーションについて*/

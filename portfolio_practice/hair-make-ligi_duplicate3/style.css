@@ -1,0 +1,496 @@
+/* フォントファミリー、ヘッダーのナビゲーション、btnの矢印のアニメーションの時、※の下の文字が出ないように、Accessの場所の横のグーグルマップ・Mail、グーグルマップのデフォルトの位置、Openninng HoursのCLOSEDのborder、Accessを一箇所・footerをrelative,absoluteを使用、写真の右下の小さい文字。*/
+/* レスポンシブ、ハンバーガーメニューをabsoluteを使ってしまったこと(なんで、flexが適用されないのか？)、コンセプトの下のimgを消したこと（本当は、ちゃんとスタイルを適用させないといけない。）、morestyle.morenewsのところの矢印が重なっている。styleの写真が重ねてしまったこと */
+body,body{
+    width: 100%;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    text-size-adjust: 100%;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+a{
+    color: #333;
+    text-decoration: none;
+    transition: .3s;
+}
+a:hover{
+    transition: .3s;
+    opacity: 0.5;
+}
+img{
+    vertical-align: bottom;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 2;
+    background: #fff;
+}
+@media screen and (max-width: 414px){
+    .header{
+        height: 60px;
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: space-between;
+    }
+}
+.sp-title{
+    font-size: 22px;
+    font-size: bold;
+    display: none;
+}
+@media screen and (max-width: 414px){
+    .sp-title{
+        display: block;
+        width: 
+    }
+}
+@media screen and (max-width: 414px){
+    .nav-menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        background: rgba(255,255,255,0.8);
+        width: 100%;
+        height: 100vh;
+        padding-top: 50px;
+        transition: .5s;
+    }
+    .nav-menu.active{
+        transition: .5s;
+        transform: translateX(-100%);
+        z-index: 2;
+    }
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.menu-item{
+    box-sizing: border-box;
+    margin-right: 50px;
+}
+.menu-item:last-child{
+    margin-right: 0px;
+}
+@media screen and (max-width: 414px){
+    .menu{
+        display: block;
+        font-size: 30px;
+    }
+    .menu-item{
+        margin-right: initial;
+    }
+    .menu-link{
+        display: block;
+        padding: 15px;
+        
+    }
+}
+.menu-trigger{
+    display: none;
+    transition: all .4s;
+    position: all .4s;
+    position: relative;
+    width: 40px;
+    height: 32px;
+    z-index 3;
+}
+@media screen and (max-width: 414px){
+    .menu-trigger{
+        display: block;
+    }
+    .menu-trigger span{
+        display: inline-block;
+        transition: all .4s;
+        position: absolute;
+        left: 100px;  /* スタイルの指定 */
+        width: 100%;
+        height: 4px;
+        background: #777;
+        border-radius: 4px;
+        z-index: 4;
+    }
+    .menu-trigger span:nth-of-type(1){
+        top: 0;
+    }
+    .menu-trigger span:nth-of-type(2){
+        top: 14px;
+    }
+    .menu-trigger span:nth-of-type(3){
+        bottom: 0;
+    }
+    .menu-trigger.active span:nth-of-type(1){
+        transform: translateY(12px) rotate(-45deg);
+    }
+    .menu-trigger.active span:nth-of-type(2){
+        opacity: 0;
+    }
+    .menu-trigger.active span:nth-of-type(3){
+        transform: translateY(-15px) rotate(45deg);
+    }
+}
+/* background1 */
+.top-hero{
+    background-image:  url("images/logo_white.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    z-index: 1;
+}
+
+.bg-hero{
+    background-image:url("images/bg-img3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    z-index: 0;
+}
+/* background2 */
+.bg2-hero{
+    background-image: url("images/bg-img1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    z-index: 0;
+    
+}
+/* background3 */
+.bg3-hero{
+    background-image: url("images/bg-img4.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    z-index: 0;
+}
+/* background4 */
+.bg4-hero{
+    background-image: url("images/bg-img2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    z-index: 0;
+}
+/* background5 */
+.bg5-hero{
+    background-image: url("images/bg-img5.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    z-index: 0;
+}
+/* background6 */
+.bg6-hero{
+    background-image: url("images/bg-img6.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    z-index: 0;
+}
+.hero-title{
+    width: 300px;
+    display: block;
+    position: fixed;
+    top: calc(50% - 150px);
+    left: calc(50% - 150px);
+    z-index: 0;
+}
+@media screen and (max-width: 414px){
+    .hero-title{
+        width: 200px;
+        left: calc(50% - 100px);
+    }
+}
+.container{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    z-index: 1;
+}
+@media screen and (max-width: 414px){
+    .container{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 414px){
+    .sp-none{
+        display: none;
+    }
+}
+.container-title{
+    display: inline-block;  /* inline-blockにすることで、border-bottomの長さを調節することができる。 */
+    font-size: 24px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    padding: 15px;
+    border-bottom: 3px solid #333;
+    box-sizing: border-box;
+}
+.container-body p{
+    line-height: 200%;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 414px){
+    .container-body p{
+        margin: 0 15px;
+    }
+}
+/* NEWS */
+.news{
+    text-align: left;
+}
+.news .news-item{
+    padding: 15px 10px;
+    box-sizing: border-box;
+    border-top: 1px solid #EEE;
+}
+.news .news-item:last-child{
+    border-bottom: 1px solid #EEE;
+}
+.news .news-item .news-date{ /* newsの中の、news-dateつなげると、両方のクラスをもつものになる。 */
+    color: #777;
+    font-size: 14px;
+    padding: 0 20px;
+}
+.news .news-item .news-title{
+    font-size: 14px;
+}
+@media screen and (max-width: 414px){
+    .news .news-item .news-date{
+        font-size: 12px;
+    }
+    .news .news-item .news-title{
+        font-size: 12px;
+    }
+}
+.btn-container{
+    margin: 80px;
+    position: relative;
+}
+.btn{
+    padding: 15px 60px;
+    font-size: 18px;
+    background: #111;
+    color: #fff;
+    transition: .3s;
+    border: none;
+}
+.btn:hover{
+    background: #fff;
+    color: #111;
+    transition: .3s;
+    border: 3px solid #111;
+}
+.right-arrow{
+    position: absolute;
+    top: 20px;
+    left: 42.5%;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 5px solid transparent;
+    border-left: 5px solid #fff;
+    transition: .3s;
+}
+.right-arrow:hover{
+    transition: .3s;
+}
+/* style */
+.img-container{
+    padding: 15px 15px;
+    overflow: hidden;
+}
+@media screen and (max-width: 414px){
+    .img-container{
+        margin-right: 15px;
+    }
+}
+.img-container .img-container-part{
+    float: left;
+    width: calc(25% - 15px);
+    margin-right: 15px;
+}
+@media screen and (max-width: 414px){
+    .img-container .img-container-part{
+        width: 50%;
+        margin-right: initial;
+        margin-bottom: -5px;
+    }
+}
+.img-container .img-container-part:last-child{
+    margin-right: 0;
+}
+@media screen and (max-width: 414px){
+    .sp-menu img{
+        display: none;  /* 本当はここは、画像ではなく、スタイルをちゃんと指定して直したかった。 */
+    }
+}
+
+/* 16行目で、opacityを指定しているので、imgには指定しない。*/
+
+/* MENU */
+.course-group-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.course-container{
+    margin-right: 15px;
+    width: calc(33.3% - 15px);
+    min-height: 350px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 414px){
+    .course-container{
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width: 414px){
+    .course-container{
+        width: 100%;
+    }
+}
+.course-container .course-title{
+    font-size: 20px;
+    border: 3px solid #111;
+    padding: 20px 0;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.course-container .course-body{
+    text-align: left;
+    font-size: 12px;
+    margin: 0 15px;
+    box-sizing: border-box;
+}
+.course-container .course-body .contents-left{
+    padding: 10px 0;
+    width: 80%;
+    font-weight: bold;
+}
+.course-container .course-body .contents-right{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+.course-container .course-body small{
+    font-size: 8px;
+}
+.course-container .course-foot{
+    margin: 20px 15px;
+    text-align: left;
+    font-size: 12px;
+    line-height: 150%;
+}
+/* shop information */
+.col6-2-flex{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.col6-2{
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+@media screen and (max-width: 414px){
+    .col6-2{
+        width: 100%;
+    }
+}
+.info-head img{
+    width: 100%;
+    height: 300px;
+}
+.info-head iframe{
+    width: 100%;
+    height: 300px;
+}
+.info-body{
+    position: relative;
+}
+.info-body .info-title{
+    margin: 30px 0;
+    font-weight: bold;
+}
+.info-body .info-container{
+    width: 100%;
+    margin: 0 15px;
+}
+@media screen and (max-width: 414px){
+    .info-body .info-container{
+        margin: 0;
+    }
+}
+.info-body .info-container2{
+    width: 50%;
+    margin-top: 30px;
+}
+@media screen and (max-width: 414px){
+    .info-body .info-container2{
+        width: 100%;
+    }
+}
+.info-body .info-left{
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+    
+}
+.info-body .info-right{
+    text-align: right;
+    font-weight: bold;
+    font-size: 14px;
+}
+.font-small{
+    font-size: 14px;
+}
+@media screen and (max-width:414px){
+    .font-small{
+        font-size: 12px;
+    }
+}
+.info-container2{
+    position: relative;
+    left: 125px;
+}
+@media screen and (max-width: 414px){
+    .info-container2{
+        left:0;
+    }
+}
+.footer-text{
+    font-size: 12px;
+    position: relative;
+    top: -150px;
+    color: #fff;
+    opacity: 0.7;
+}
+/* @mediasite-width width: 100%; */

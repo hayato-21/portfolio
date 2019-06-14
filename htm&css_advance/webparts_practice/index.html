@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>WebParts</title>
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div id="main">
+      
+    <section class="section">
+      <div class="col-6"> <!-- 今回は写真は2カラムなので、col-6でかこっている。写真よりさらに囲うためのクラスである。-->
+        <div class="thumbnail">  <!--class=thumbnailは写真の大きさを指定するクラス。また、開発ツールで見ると、こっちにもtransitionがついているが、ここでは使わない。ズームアップのクラスと共通のクラスを持っているため。-->
+          <img src="img/4.jpg" alt="">
+          <div class="thumbnailCover thumbnailCover--sample1"><i class="fa fa-search" aria-hidden="true"></i></div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="thumbnail">
+          <img src="img/2.jpg" alt="">
+          <div class="thumbnailCover thumbnailCover--sample1"><i class="fa fa-search" aria-hidden="true"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="col-6">
+        <div class="thumbnail thumbnail--sample2">
+          <img src="img/3.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="thumbnail thumbnail--sample2">
+          <img src="img/1.jpg" alt="">
+
+        </div>
+      </div>
+    </section>  
+      
+    <section class="person person-translate1">
+      <img src="img/5.jpg">
+    </section>
+    <section class="person person-translate2">
+      <img src="img/6.jpg">
+    </section>
+    <section class="person person-translate3">
+      <img src="img/7.jpg">
+    </section>
+    <section class="person person-translate4">
+      <img src="img/8.jpg">
+    </section>
+    
+     <section class="section">
+      <div>
+        <i class="fa fa-heart-o js-click-animation fav" aria-hidden="true"></i>
+        <i class="fa fa-heart js-click-animation2 fav2" aria-hidden="true"></i>
+      </div>
+    </section> 
+  </div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+<script>
+    $(function () {
+      $('.js-click-animation').on('click', function () {
+        var $this = $(this); /*なぜ、$(this)を格納するのかは、$(this)tとは、$('.js-click-animation')で、これとは、htmlのタグである。そのため、毎回$(this)を書くと、毎回htmlを取ってくるので、処理が遅くなる。よって格納し、処理を軽くする。*/
+        $this.toggleClass('fa-heart-o'); /*toggleClassはクラスを付け替える。付いていなければつけるし、付いていたら、取るし*/
+        $this.toggleClass('fa-heart');
+        $this.toggleClass('is-active');
+        $('.js-click-animation2').toggleClass('is-active');
+      });
+    });
+  </script>
+</body>
+</html>

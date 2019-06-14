@@ -1,0 +1,126 @@
+<!-- 模写1 http://www.es-hair-tokyo.com/
+　　　html,css,jsの全ての実装で約3時間程度。
+　　　簡単なデザイン・レスポンシブ・アニメーションの練習。
+　　　全体敵にクラス指定に無駄が多かった。
+　　　今回のやっていない実装
+　　　・Ipad用のレスポンシブ、背景のアニメーション、細かいフォントの設定、グーグルマップのアイコン表示・デフォルトでの位置の設定など-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>es for hair design 模写1</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link type="text/css" rel="stylesheet" href="reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400i|Oswald&display=swap" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+      <section class="header-container site-width">
+        <div class="header-top header-flex">
+          <img src="images/logo.png" class="logo">
+        </div>
+        <nav class="nav-container">
+          <ul>
+            <li><a href="#salon">salon</a></li>  
+            <li><a href="#stylist">stylist</a></li>  
+            <li><a href="#price">price</a></li>  
+            <li><a href="#access">access</a></li>  
+          </ul>  
+        </nav>
+      </section>
+    </header>
+    
+    <main>
+      <section class="site-width">
+        <h1 class="title title-top">es for hair design</h1>
+        <div class="flex-container">
+          <span class="punctuate-bar"></span>
+        </div>
+      </section>
+        
+      <section class="site-width">
+        <h1 class="title title-font" id="salon">salon</h1>
+        <div class="body-container">
+          <p class="bold-font under-font">PHONE: 03-3525-4560</p> 
+          <p class="bold-font">OPEN: 10:00 / CLOSE: 20:00</p>
+          <p class="bold-font-light">The last appointment time: 20:00</p>
+          <p class="light-weight">営業時間：10時〜20時<br>（予約受付〜19時）</p>
+          <p class="bold-font"><br><br><br>HOLIDAY: Tuesday</p>
+          <p class="light-weight">定休日：火曜日</p>
+          <p class="bold-font"><br><br><br>ADRESS:</p>
+          <p class="bold-font-light">Kiyota-Shoukai Building #101,<br>3-6-13 Sotokanda Chiyoda-ku Tokyo<br>101-0021 JAPAN<br></p>
+          <p class="light-weight">住所：〒101-0021<br>東京都千代田区外神田3-6-13 清田商会ビル101</p>
+        </div>
+      </section>
+        
+      <section class="site-width">
+        <div class="flex-container">
+          <span class="punctuate-bar bar-space"></span>
+        </div>
+        <h1 class="title title-font tile-margin-bottom" id="stylist">stylist</h1>
+        <div class="body-container">
+          <p class="bold-font big-font"><br><br><br>Tomoaki Suzuki</p>
+          <p class="light-weight">鈴木 智昭</p>
+          <p class="bold-font big-font"><br><br><br>Yoshihiro Sueyama</p>
+          <p class="light-weight">末山 佳裕</p>
+        </div>
+      </section>
+        
+      <section class="site-width">
+        <div class="flex-container">
+          <span class="punctuate-bar bar-space"></span>
+        </div>
+        <h1 class="title title-font tile-margin-bottom" id="price">price</h1>
+        <div class="flex-container">
+          <table class="price-table">
+            <tr><th class="th-left">Cut</th><th class="th-right">￥4,500～</th></tr>  
+            <tr><th class="th-left">Color</th><th class="th-right">￥6,000～</th></tr>  
+            <tr><th class="th-left">Perm</th><th class="th-right">￥11,000～</th></tr>  
+            <tr><th class="th-left">Straight Perm</th><th class="th-right">￥13,000～</th></tr>  
+            <tr><th class="th-left">Treatment</th><th class="th-right">￥4,000～</th></tr>  
+          </table>
+        </div>
+        <p class="light-weight"></p>
+            <p class="light-weight">カット　¥4,500~</p>
+            <p class="light-weight">カラー　¥6,000~</p>
+            <p class="light-weight">パーマ　¥11,000~</p>
+            <p class="light-weight">ストレートパーマ　¥13,000~</p>
+            <p class="light-weight">トリートメント　¥4,000~</p>
+            <p class="light-weight"><br>上記以外のメニューも多数承っております。</p>
+      </section>
+        
+      <section class="site-width">
+        <div class="flex-container">
+          <span class="punctuate-bar bar-space"></span>
+        </div>
+        <h1 class="title title-font" id="access">access</h1>
+        <p class="bold-font-light">Kiyota-Shoukai Building #101,<br>3-6-13 Sotokanda Chiyoda-ku Tokyo<br>101-0021 JAPAN<br></p>
+        <p class="light-weight">住所：〒101-0021<br>
+               東京都千代田区外神田3-6-13 清田商会ビル101<br>最寄駅：<br>東京メトロ銀座線　末広町駅から徒歩2分<br>東京メトロ千代田線　湯島駅から徒歩5分<br>JR線　御徒町駅より徒歩7分<br>JR線　秋葉原駅より徒歩8分<br>JR線　御茶ノ水駅より徒歩9分</p>
+      </section>
+        
+      <section>
+        <div class="creditUnitMap">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25925.21070272673!2d139.74222065!3d35.6855862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1559710939086!5m2!1sja!2sjp" width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </section>
+        
+      <section class="site-width">
+        <button class="btn js-top-page">Top</button>
+      </section>
+    </main>
+    
+    <footer>
+      <p>Copyright&#169;es for hair design</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>

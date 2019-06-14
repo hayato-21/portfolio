@@ -1,0 +1,82 @@
+body{
+  background: #f6f5f4;
+  color: #333;
+}
+img{
+    height: 500px;
+}
+#main{
+  background: #fff;
+  width: 980px;
+  padding: 40px;
+  box-sizing: border-box;
+  margin: 100px auto;
+  text-align: center;
+  border-radius: 3px;
+}
+.section{
+  margin-bottom: 50px;
+}
+.section::after{ /* 擬似要素（floatを解除するもの）今回、col6にfloatを使っているため。sectionに対して、大きく2つ解除方法。もう一つは、overflow:hidden;*/
+  content: '';  /* contentの中は作られた要素に文字など何か入れられる。beforeの場合は、前に擬似要素を作り、floatを解除する。*/
+  display: block; /*clear:both;は親要素の直下に新しいdivタグを追加して、作る。*/
+  clear: both;
+}
+.sectionTitle{
+  text-align: left;
+  color: #82765c;
+}
+.col-6{
+  width: 50%;
+  float: left;
+  margin-right: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+.col-6:last-child{
+  margin-right: -10px;
+}
+.thumbnail img{
+  width: 100%;
+  /* デフォルトでは、画像下に余白ができるため、下記のようにするかblock要素にする */
+  vertical-align: bottom;
+  transition: all .25s;
+}
+.thumbnail:hover{
+  cursor: pointer;
+  transition: all .25s;
+}
+.thumbnailCover{
+  opacity: 0;
+  position: absolute; /*position:absolute;は通常、画面の絶対値から値をとるが、親要素にrelativeを指定することで、親要素の表示内から、値を取ることに変更できる。今回の場合、ちょっとカバーを大きく見せたいから、もう一つ上の親要素.col6。子要素.thumbnailCover イメーシ的に、heightとline-heightの組み合わせ？*/
+  /* top〜width:100%; height:100%; と同じ */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all .25s;
+  transform: scale(1.2);
+}
+.thumbnailCover:hover{
+  opacity: 1;
+  transition: all .25s;
+  transform: scale(1);
+}
+.thumbnailCover--sample1{
+  background: rgba(0, 0, 0, .6);
+}
+.thumbnailCover--sample1 .fa{
+  color: #fff;
+  font-size: 2em; /*文字アイコンなので、大きさを調整できる。*/
+  position: relative; /*これもさっきと同じで、親要素から値を取れる。親要素thumbnailCover*/
+  top: 43%; /*上から微調整している。*/
+}
+
+.thumbnail--sample2{
+  overflow: hidden; /*これを指定しないと枠から写真がはみ出る。はみでたものは隠すイメージ。*/
+}
+.thumbnail--sample2 img:hover{
+  transform: scale(1.5) rotate(8deg); /*アニメーションの関数は繋げることができる。*/
+}
+
+/* 参考：http://gudh.github.io/ihover/dist/index.html */

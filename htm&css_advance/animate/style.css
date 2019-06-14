@@ -1,0 +1,112 @@
+/* アニメーションの練習 */
+body{
+    height: 3000px;
+}
+.container{
+    height: 600px;
+}
+.animation-box{
+    padding: 120px;
+    transition: 1s;
+}
+.animation-box.active{
+    transition: 1s;
+    background: #666;
+    color: #fff;
+}
+.animation-box2{
+    padding: 120px;
+    transition: 1s;
+}
+.animation-box2.active{
+    transition: 1s;
+    background: #666;
+    color: #fff;
+}
+.animation-box3{
+    padding: 120px;
+    transition: 1s;
+}
+.animation-box3.active{
+    transition: 1s;
+    background: #666;
+    color: #fff;
+}
+/* ちょっと細かいアニメーションのスタイル */
+.sec{
+    margin-bottom: 120px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col2{
+    width: 40%;
+}
+.img-container{
+    overflow: hidden;
+    position: relative;
+}
+.img-container__img{
+    display: block;
+    width: 100%;
+    position: relative;
+    transition: all .5s .3s ease;
+    z-index: 0;
+    opacity: 0;
+}
+.img-container:before{ /* afterでは動かない。*/
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    transform: translateX(-100%);
+    transition: all .8s 0s ease; /* 最初に指定しているのは、横の方へ秒？縦はいきなりでるから。 */
+}
+.text-container{
+    opacity: 0;
+    padding: 0 60px;
+    transition: all .8s .5s ease;
+    position: relative;
+}
+.text-container:before{
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    transform: translateX(-100%);
+    transition: all .8s 0s ease;
+}
+.text-container__title{
+    color: #333;
+    font-size: 60px;
+    font-weight: 700;
+    transition: all .5s .3s ease;
+    z-index: 0;
+    width: 100%;
+    opacity: 0;
+
+}
+.img-container.active img{
+    opacity: 1;
+}
+.img-container.active:before{
+    transform: translateX(100%);
+}
+.text-container.active{
+    opacity: 1;
+}
+.text-container__title{
+    opacity: 1;
+}
+.text-container.active:before{
+    transform: translateX(100%);
+}
+/* imgの2枚目は、textのようにrelativeで浮いていないので、 かぶさってしまう。*/

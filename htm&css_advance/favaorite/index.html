@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>animationでお気に入りアイコンを作ろう！</title>
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- 基本的には、ダウンロードする方が、負荷がかからない。-->
+</head>
+<body>
+  <div id="main">
+    <h1>animationでお気に入りアイコンを作ろう！</h1>
+
+    <section class="section">
+      <div>
+        <i class="fa fa-heart-o js-click-animation fav" aria-hidden="true"></i>
+        <i class="fa fa-heart js-click-animation2 fav2" aria-hidden="true"></i>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+  <script>
+    $(function () {
+      $('.js-click-animation').on('click', function () {
+        var $this = $(this); /*なぜ、$(this)を格納するのかは、$(this)tとは、$('.js-click-animation')で、これとは、htmlのタグである。そのため、毎回$(this)を書くと、毎回htmlを取ってくるので、処理が遅くなる。よって格納し、処理を軽くする。*/
+        $this.toggleClass('fa-heart-o'); /*toggleClassはクラスを付け替える。付いていなければつけるし、付いていたら、取るし*/
+        $this.toggleClass('fa-heart');
+        $this.toggleClass('is-active');
+        $('.js-click-animation2').toggleClass('is-active');
+      });
+    });
+  </script>
+
+</body>
+</html>

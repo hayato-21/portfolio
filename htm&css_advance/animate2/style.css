@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+section {
+  padding: 30px 90px;
+}
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.scroll-animation-obj {
+  opacity: 0;
+  transition: all 0.5s ease 0.5s;
+}
+.scroll-animation-hop {
+  transform: translate(0,60px);
+}
+.scroll-animation-left {
+  transform: translate(-120px,0);
+}
+.scroll-animation-right {
+  transform: translate(120px,0);
+}

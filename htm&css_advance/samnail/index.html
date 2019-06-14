@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>アニメーションでサムネイルをリッチにしてみよう！</title>
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div id="main">
+    <h1>アニメーションでサムネイルをリッチにしてみよう！</h1>
+
+    <section class="section">
+      <h2 class="sectionTitle">拡大できる風</h2>
+      <div class="col-6"> <!-- 今回は写真は2カラムなので、col-6でかこっている。写真よりさらに囲うためのクラスである。-->
+        <div class="thumbnail">  <!--class=thumbnailは写真の大きさを指定するクラス。また、開発ツールで見ると、こっちにもtransitionがついているが、ここでは使わない。ズームアップのクラスと共通のクラスを持っているため。-->
+          <img src="img/1.jpg" alt="">
+          <div class="thumbnailCover thumbnailCover--sample1"><i class="fa fa-search" aria-hidden="true"></i></div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="thumbnail">
+          <img src="img/2.jpg" alt="">
+          <div class="thumbnailCover thumbnailCover--sample1"><i class="fa fa-search" aria-hidden="true"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="sectionTitle">ズームアップ</h2>
+      <div class="col-6">
+        <div class="thumbnail thumbnail--sample2">
+          <img src="img/3.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="thumbnail thumbnail--sample2">
+          <img src="img/4.jpg" alt="">
+
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>

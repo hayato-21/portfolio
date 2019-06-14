@@ -1,0 +1,33 @@
+body{
+    background: #f6f5f4;
+}
+.form{
+    width: 500px;
+    background: white;
+    margin: 100px auto;
+    padding: 50px;
+}
+.form-input{
+    height: 60px;
+    background: #f6f5f4;
+    border: none;
+    padding: 0 10px;
+    width: 100%;
+}
+.form-submit{
+    background: black;
+    border: none;
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+}
+.form-submit:hover{
+    cursor: pointer;
+    background: #333;
+}
+.form-submit:disabled{
+    cursor: not-allowed;
+    background: #8d8d8d;
+}

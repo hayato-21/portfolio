@@ -1,0 +1,41 @@
+/* 参考サイト：http://webukatu.com/sample/html_advance/flexbox/ */
+
+.item1{
+    background: blue; 
+}
+.item2{
+    background: green;
+}
+.item3{
+    background: yellow;
+}
+.item4{
+    background: red;
+}
+.item5{
+    background: lightblue;
+}
+.item6{
+    background: lightgreen;
+}
+.item7{
+    background: lightyellow;
+}
+.item8{
+    background: pink;
+}
+.item {
+    color: #fff;
+    width: 200px;
+}
+.container{
+    width: 980px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* space-between　コンテンツの中央寄せや、ヘッダーを左と右で分けたいときに使える。 */
+    align-items: center;  /* 一行ずつ指定 */
+    align-content: center; /* 複数行指定　ヘッダーの垂直中央寄せ */
+    
+}
