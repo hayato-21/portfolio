@@ -90,7 +90,7 @@ require('head.php');
             <span class="total-num"><?php echo sanitize($dbProductData['total']); ?></span>件の商品が見つかりました
           </div>
           <div class="search-right">
-            <span class="num"><?php echo (!empty($dbProductData['data'])) ? $currentMinNum+1 : 0; ?></span> - <span class="num"><?php echo $currentMinNum+count($dbProduct Data['data']); ?></span>件 / <span class="num"><?php echo sanitize($dbProductData['total']); ?></span>件中  <!-- countなので、数を示す。 -->
+            <span class="num"><?php echo (!empty($dbProductData['data'])) ? $currentMinNum+1 : 0; ?></span> - <span class="num"><?php echo $currentMinNum+count($dbProductData['data']); ?></span>件 / <span class="num"><?php echo sanitize($dbProductData['total']); ?></span>件中  <!-- countなので、数を示す。 -->
           </div>
         </div>
         <div class="panel-list">

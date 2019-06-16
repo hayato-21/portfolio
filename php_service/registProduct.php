@@ -42,8 +42,8 @@ if(!empty($_POST)){
   $price = (!empty($_POST['price'])) ? $_POST['price'] : 0; //０や空文字の場合は０を入れる。デフォルトのフォームには０が入っている。
   $comment = $_POST['comment'];
   //画像をアップロードし、パスを格納
-  $pic1 = ( !empty($_FILES['pic1']['name']) ) ? uploadImg($_FILES['pic1'],'pic1') : '';
-  // 画像をPOSTしてない（登録していない）が既にDBに登録されている場合、DBのパスを入れる（POSTには反映されないので）
+  $pic1 = ( !empty($_FILES['pic1']['name']) ) ? uploadImg($_FILES['pic1'],'pic1') : '';  //picがkey,
+  // 画像をPOSTしてない（登録していない）が既にDBに登録されている場合、DBのパスを入れる（POSTには反映されないので、ここは画像の登録の注意。）
   $pic1 = ( empty($pic1) && !empty($dbFormData['pic1']) ) ? $dbFormData['pic1'] : $pic1;
   $pic2 = ( !empty($_FILES['pic2']['name']) ) ? uploadImg($_FILES['pic2'],'pic2') : '';
   $pic2 = ( empty($pic2) && !empty($dbFormData['pic2']) ) ? $dbFormData['pic2'] : $pic2;
@@ -199,8 +199,8 @@ require('head.php');
               <div class="imgDrop-container">
                 画像1
                 <label class="area-drop <?php if(!empty($err_msg['pic1'])) echo 'err'; ?>">
-                  <input type="hidden" name="MAX_FILE_SIZE" value="3145728">
-                  <input type="file" name="pic1" class="input-file">
+                  <input type="hidden" name="MAX_FILE_SIZE" value="3145728">  <!-- 3MGという意味。必ず上。 -->
+                  <input type="file" name="pic1" class="input-file">   <!-- データベースの登録先と、画像の送信先は異なる。 -->
                   <img src="<?php echo getFormData('pic1'); ?>" alt="" class="prev-img" style="<?php if(empty(getFormData('pic1'))) echo 'display:none;' ?>">
                     ドラッグ＆ドロップ
                 </label>

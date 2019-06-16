@@ -9,3 +9,6 @@
   <!-- フォントアイコン -->
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
   </head>
+
+<!--  1．データベースの設計。2．head,header,footer,function.php3．ユーザー登録、ログイン、ログアウト、退会、プロフ編集画面、パスワードリマインダー、ホームなどの流れ
+      やること。データベースの作り方の記録、メールの設定の記録。 -->

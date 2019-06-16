@@ -156,7 +156,7 @@ require('head.php');
         <div class="title">
           <span class="badge"><?php echo sanitize($viewData['category']); ?></span>
           <?php echo sanitize($viewData['name']); ?>
-          <i class="fa fa-heart icn-like js-click-like <?php if(isLike($_SESSION['user_id'], $viewData['id'])){ echo 'active'; } ?>" aria-hidden="true" data-productid="<?php echo sanitize($viewData['id']); ?>" ></i>
+          <i class="fa fa-heart icn-like js-click-like <?php if(isLike($_SESSION['user_id'], $viewData['id'])){ echo 'active'; } ?>" aria-hidden="true" data-productid="<?php echo sanitize($viewData['id']); ?>" ></i>  <!-- data属性を用いて、Ajaxを使う。data-任意の名前=値 -->
         </div>
         <div class="product-img-container">
           <div class="img-main">
@@ -173,9 +173,9 @@ require('head.php');
         </div>
         <div class="product-buy">
           <div class="item-left">
-            <a href="index.php<?php echo appendGetParam(array('p_id')); ?>">&lt; 商品一覧に戻る</a>  <!-- 今のページのidを消してから、一覧ページに戻る。消さないと？ -->
+            <a href="index.php<?php echo appendGetParam(array('p_id')); ?>">&lt; 商品一覧に戻る</a>  <!-- 今のページのidを消してから、一覧ページに戻る。-->
           </div>
-          <form action="" method="post"> <!-- formタグを追加し、ボタンをinputに変更し、style追加。actionで決済機能の画面と通信する。 -->
+          <form action="" method="post"> <!-- formタグを追加し、ボタンをinputに変更し、style追加。actionで決済機能の画面と通信する。2ページ目の商品詳細を見ているのに、1ページ目に飛ばないようにするため。 -->
             <div class="item-right">
               <input type="submit" value="買う!" name="submit" class="btn btn-primary" style="margin-top:0;">
             </div>

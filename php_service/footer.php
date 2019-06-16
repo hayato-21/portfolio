@@ -33,13 +33,13 @@
     });
     $fileInput.on('change', function(e){
       $dropArea.css('border', 'none');
-      var file = this.files[0],            // 2. files配列にファイルが入っています
+      var file = this.files[0],            // 2. files配列にファイルが入っています。一番最初のファイル。
           $img = $(this).siblings('.prev-img'), // 3. jQueryのsiblingsメソッドで兄弟のimgを取得
           fileReader = new FileReader();   // 4. ファイルを読み込むFileReaderオブジェクト
       // 5. 読み込みが完了した際のイベントハンドラ。imgのsrcにデータをセット
       fileReader.onload = function(event) {
         // 読み込んだデータをimgに設定
-        $img.attr('src', event.target.result).show();
+        $img.attr('src', event.target.result).show();// eventはfileが入ってきている。target.resultで設定出来る。show()で表示する。
       };
       // 6. 画像読み込み
       fileReader.readAsDataURL(file);
@@ -62,7 +62,7 @@
     // お気に入り登録・削除
     var $like,
         likeProductId;
-    $like = $('.js-click-like') || null; //nullというのはnull値という値で、「変数の中身は空ですよ」と明示するためにつかう値
+    $like = $('.js-click-like') || null; //nullというのはnull値という値で、「変数の中身は空ですよ」と明示するためにつかう値。後続の処理が停まんないようにするため。
     likeProductId = $like.data('productid') || null;
     // 数値の0はfalseと判定されてしまう。product_idが0の場合もありえるので、0もtrueとする場合にはundefinedとnullを判定する
     if(likeProductId !== undefined && likeProductId !== null){

@@ -243,7 +243,7 @@ require('head.php');
           </div>
           <div class="avatar-info">
             <?php echo sanitize($partnerUserInfo['username']).' '.sanitize($partnerUserInfo['age']).'歳' ?><br>
-            〒<?php echo wordwrap($partnerUserInfo['zip'], 4, "-", true); ?><br>
+            〒<?php echo wordwrap($partnerUserInfo['zip'], 4, "-", true); ?><br>   <!--  wordwrap 4文字目にーを入れてあげる。-->
             <?php echo sanitize($partnerUserInfo['addr']); ?><br>
             TEL：<?php echo sanitize($partnerUserInfo['tel']); ?>
           </div>

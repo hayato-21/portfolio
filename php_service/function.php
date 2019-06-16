@@ -370,7 +370,7 @@ function getProductOne($p_id){
     $dbh = dbConnect();
     // SQL文作成
     $sql = 'SELECT p.id , p.name , p.comment, p.price, p.pic1, p.pic2, p.pic3, p.user_id, p.create_date, p.update_date, c.name AS category 
-             FROM product AS p LEFT JOIN category AS c ON p.category_id = c.id WHERE p.id = :p_id AND p.delete_flg = 0 AND c.delete_flg = 0';  // p.category_idは、productテーブルの中の、category_id、c.idは、categoryテーブルの中の、idのこと。
+             FROM product AS p LEFT JOIN category AS c ON p.category_id = c.id WHERE p.id = :p_id AND p.delete_flg = 0 AND c.delete_flg = 0';  // p.category_idは、productテーブルの中の、category_id、c.nameをcategoryとして扱い、c.idは、categoryテーブルの中の、idのこと。
     $data = array(':p_id' => $p_id);
     // クエリ実行
     $stmt = queryPost($dbh, $sql, $data);
@@ -449,7 +449,7 @@ function getMyMsgsAndBord($u_id){
         $data = array(':id' => $val['id']);  // $val['id']は、取得したb.idのこと。
         // クエリ実行
         $stmt = queryPost($dbh, $sql, $data);
-        $rst[$key]['msg'] = $stmt->fetchAll();
+        $rst[$key]['msg'] = $stmt->fetchAll();  //ここで、keyをforeachに使うkeyを用意する。
       }
     }
     
@@ -484,7 +484,7 @@ function getCategory(){
     error_log('エラー発生:' . $e->getMessage());
   }
 }
-function isLike($u_id, $p_id){
+function isLike($u_id, $p_id){   //isを先頭につけることで、trueかfalseを返すことがわかる。
   debug('お気に入り情報があるか確認します。');
   debug('ユーザーID：'.$u_id);
   debug('商品ID：'.$p_id);
@@ -611,8 +611,8 @@ function uploadImg($file, $key){
   debug('画像アップロード処理開始');
   debug('FILE情報：'.print_r($file,true));
   
-  if (isset($file['error']) && is_int($file['error'])) {
-    try {
+  if (isset($file['error']) && is_int($file['error'])) {  //0を含む値が入っているかつ、整数型かどうか。→なぜ、errorがfileの中に入っていなければならないのか？
+    try {                                                 //$_FILEの中には、name,type,tmp_name,error,size,のkeyが入っており、errorが正常であれば、0を返し、何も選択していないと4を返すから。
       // バリデーション
       // $file['error'] の値を確認。配列内には「UPLOAD_ERR_OK」などの定数が入っている。
       //「UPLOAD_ERR_OK」などの定数はphpでファイルアップロード時に自動的に定義される。定数には値として0や1などの数値が入っている。
@@ -621,7 +621,7 @@ function uploadImg($file, $key){
               break;
           case UPLOAD_ERR_NO_FILE:   // ファイル未選択の場合
               throw new RuntimeException('ファイルが選択されていません');
-          case UPLOAD_ERR_INI_SIZE:  // php.ini定義の最大サイズが超過した場合
+          case UPLOAD_ERR_INI_SIZE:  // php.ini定義の最大サイズが超過した場合  3つかえる箇所がある。upload_max_filesize(レンタルサーバーだと、2MG、20MGになっている。),post_max_size,memory_limit
           case UPLOAD_ERR_FORM_SIZE: // フォーム定義の最大サイズ超過した場合
               throw new RuntimeException('ファイルサイズが大きすぎます');
           default: // その他の場合
@@ -630,8 +630,8 @@ function uploadImg($file, $key){
       
       // $file['mime']の値はブラウザ側で偽装可能なので、MIMEタイプを自前でチェックする
       // exif_imagetype関数は「IMAGETYPE_GIF」「IMAGETYPE_JPEG」などの定数を返す
-      $type = @exif_imagetype($file['tmp_name']);
-      if (!in_array($type, [IMAGETYPE_GIF, IMAGETYPE_JPEG, IMAGETYPE_PNG], true)) { // 第三引数にはtrueを設定すると厳密にチェックしてくれるので必ずつける
+      $type = @exif_imagetype($file['tmp_name']);  //MIMEタイプを取っている。
+      if (!in_array($type, [IMAGETYPE_GIF, IMAGETYPE_JPEG, IMAGETYPE_PNG], true)) { // 配列の中に引数のものがあるかどうか。第三引数にはtrueを設定すると厳密にチェックしてくれるので必ずつける
           throw new RuntimeException('画像形式が未対応です');
       }
       // ファイルデータからSHA-1ハッシュを取ってファイル名を決定し、ファイルを保存する
@@ -658,7 +658,7 @@ function uploadImg($file, $key){
 //ページング
 // $currentPageNum : 現在のページ数
 // $totalPageNum : 総ページ数
-// $link : 検索用GETパラメータリンク
+// $link : 検索用GETパラメータリンク  GET通信の後に、空白が出来るため？検索用GETパラメータリンクを追加出来ない、だから空にするのか？なせいるのか？
 // $pageColNum : ページネーション表示数
 function pagination( $currentPageNum, $totalPageNum, $link = '', $pageColNum = 5){
   // 現在のページが、総ページ数と同じ　かつ　総ページ数が表示項目数以上なら、左にリンク４個出す
@@ -713,15 +713,15 @@ function showImg($path){
 }
 //GETパラメータ付与
 // $del_key : 付与から取り除きたいGETパラメータのキー
-function appendGetParam($arr_del_key = array()){   //取り除きたいGETパラメータを指定する。
+function appendGetParam($arr_del_key = array()){   //取り除きたいGETパラメータを指定する。引く数に指定したものを含まない。
   if(!empty($_GET)){
     $str = '?';
     foreach($_GET as $key => $val){
-      if(!in_array($key,$arr_del_key,true)){ //取り除きたいパラメータじゃない場合にurlにくっつけるパラメータを生成。続けて繋げられる？bord.msgみたいに？。in_arrayは、配列があるか確認する。つまり、削除したいパラメータがなければ？
-        $str .= $key.'='.$val.'&';    // 最後の＆は、もしGETパラメータが複数ある場合に繋げるため。
+      if(!in_array($key,$arr_del_key,true)){ //取り除きたいパラメータじゃない場合にurlにくっつけるパラメータを生成。in_arrayは、配列があるか確認する。つまり、keyと値($arr_del_key)が合致しなけば、その$keyのGETパラメータを取得する？
+        $str .= $key.'='.$val.'&';    //こうすることで、?p_id=100&、が出来上がる。
       }
     }
-    $str = mb_substr($str, 0, -1, "UTF-8");  // これは何をしているのか？たぶん、urlの最後尾の/を消して、そこからスタートさせるため？
+    $str = mb_substr($str, 0, -1, "UTF-8");  // 引数に指定したp_idを消した後は、例えば、?p_id=170&p=2となっているため、＆を消してあげる必要がある。2ページは後ろにつくのか。だから噛み合わなかった。
     return $str;
   }
 }
