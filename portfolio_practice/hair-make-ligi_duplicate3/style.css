@@ -418,6 +418,7 @@ img{
     padding: 20px;
     width: 50%;
     text-align: center;
+    box-sizing: border-box;
 }
 @media screen and (max-width: 414px){
     .col6-2{
@@ -440,12 +441,13 @@ img{
     font-weight: bold;
 }
 .info-body .info-container{
-    width: 100%;
+    width: calc(100% - 30px);
     margin: 0 15px;
 }
 @media screen and (max-width: 414px){
     .info-body .info-container{
         margin: 0;
+        width: 100%;
     }
 }
 .info-body .info-container2{

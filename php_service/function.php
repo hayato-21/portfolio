@@ -658,7 +658,7 @@ function uploadImg($file, $key){
 //ページング
 // $currentPageNum : 現在のページ数
 // $totalPageNum : 総ページ数
-// $link : 検索用GETパラメータリンク  GET通信の後に、空白が出来るため？検索用GETパラメータリンクを追加出来ない、だから空にするのか？なせいるのか？
+// $link : 検索用GETパラメータリンク 
 // $pageColNum : ページネーション表示数
 function pagination( $currentPageNum, $totalPageNum, $link = '', $pageColNum = 5){
   // 現在のページが、総ページ数と同じ　かつ　総ページ数が表示項目数以上なら、左にリンク４個出す
@@ -718,10 +718,10 @@ function appendGetParam($arr_del_key = array()){   //取り除きたいGETパラ
     $str = '?';
     foreach($_GET as $key => $val){
       if(!in_array($key,$arr_del_key,true)){ //取り除きたいパラメータじゃない場合にurlにくっつけるパラメータを生成。in_arrayは、配列があるか確認する。つまり、keyと値($arr_del_key)が合致しなけば、その$keyのGETパラメータを取得する？
-        $str .= $key.'='.$val.'&';    //こうすることで、?p_id=100&、が出来上がる。
+        $str .= $key.'='.$val.'&';    //こうすることで、?p_id=100&p=1&が出来上がる。
       }
     }
-    $str = mb_substr($str, 0, -1, "UTF-8");  // 引数に指定したp_idを消した後は、例えば、?p_id=170&p=2となっているため、＆を消してあげる必要がある。2ページは後ろにつくのか。だから噛み合わなかった。
+    $str = mb_substr($str, 0, -1, "UTF-8");  // 引数に指定したp_idを消した後は、例えば、?p_id=170&p=2&となっているため、＆を消してあげる必要がある。2ページは後ろにつくのか。だから噛み合わなかった。
     return $str;
   }
 }
