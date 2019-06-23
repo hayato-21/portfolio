@@ -192,6 +192,26 @@ function getErrMsg($key){
     }
 }
 //================================
+// ログイン認証
+//================================  authとは異なり、headerがなくただのログインの確認
+function isLogin(){
+  // ログインしている場合
+  if(!empty($_SESSION['login_date']) ){
+    debug('ログイン済みのユーザーです。');
+    // 現在日時が最終ログイン日時+有効期限を超えていた場合
+    if( ($_SESSION['login_date'] + $_SESSION['login_limit']) < time()){
+      debug('ログイン有効期限オーバーです。');
+      // セッションを削除（ログアウトします）
+      session_destroy();
+      return false;
+    }else{
+      debug('ログイン有効期限以内です。');
+      return false;
+    }
+  }
+}
+
+//================================
 // データベース
 //================================
 //DB接続関数
@@ -341,6 +361,29 @@ function getProductOne($p_id){
 }
 
 //getMyProducts
+function getMyProducts($u_id){
+  debug('自分の商品情報を取得します。');
+  debug('ユーザーID:'.$u_id);
+  //例外処理
+  try{
+    //DBへ接続
+    $dbh = dbConnect();
+    //SQL文作成
+    $sql = 'SELECT * FROM product WHERE user_id = :u_id AND delete_flg = 0';
+    $data = array(':u_id' => $u_id);
+    //クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+    if($stmt){
+      //クエリ結果のデータを全レコード返却
+      return $stmt->fetchAll();
+    }else{
+      return false;
+    }
+  }catch (Exception $e){
+    error_log('エラー発生：' . $e->getMessage());
+  }
+}
+
 //getMsgAndBord
 function getMsgsAndBord($id){
   debug('msg情報を取得します。');
@@ -367,6 +410,42 @@ function getMsgsAndBord($id){
  
 }
 //getMyMsgsAndBord
+function getMyMsgsAndBord($u_id){
+  debug('自分のmsg情報を取得します。');
+  //例外処理
+  try{
+    //DBへ接続
+    $dbh = dbConnect();
+      
+    //まず、掲示板レコード取得
+    // SQL文作成
+    $sql = 'SELECT * FROM bord AS b WHERE b.sale_user = :id OR b.buy_user = :id AND b.delete_flg = 0';
+    $data = array(':id' => $u_id);
+    //クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+    $rst = $stmt->fetchAll();
+    if(!empty($rst)){
+      foreach($rst as $key => $val){
+        //SQL文作成
+          $sql = 'SELECT * FROM message WHERE bord_id = :id AND delete_flg = 0 ORDER BY send_date DESC';
+          $data = array(':id' => $val['id']);
+          // クエリの実行
+          $stmt = queryPost($dbh, $sql, $data);
+          $rst[$key]['msg'] = $stmt->fetchAll();
+      }
+    }
+    
+    if($stmt){
+      // クエリ結果の全データを返却
+      return $rst;
+    }else{
+      return false;
+    }
+  }catch (Exception $e){
+    error_log('エラー発生：' . $e->getMessage());
+  }
+}
+
 function getCategory(){
     debug('カテゴリー情報を取得します。');
     //例外処理
@@ -412,6 +491,27 @@ function isLike($u_id, $p_id){
     }catch (Exception $e){
         error_log('エラー発生：'. $e->getMessage());
     }
+}
+function getMyLike($u_id){
+  debug('自分のお気に入り情報を取得します。');
+  debug('ユーザーID:'.$u_id);
+  //例外処理
+  try{
+    // DBへ接続
+    $dbh = dbConnect();
+    // SQL文作成
+    $sql = 'SELECT * FROM `like` AS LEFT JOIN product AS p ON l.product_id = p.id WHERE l.user_id = :u_id';
+    $data = array(':u_id' => $u_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+    if($stmt){
+      return $stmt->fetchAll();
+    }else{
+      return false;
+    }
+  }catch (Exception $e){
+    error_log('エラー発生：' . $e->getMessage());
+  }
 }
 //================================
 // メール送信
@@ -564,7 +664,7 @@ function pagination( $currentPageNum, $totalPageNum, $link = '', $pageColNum = 5
     //phpのファイルなので、echoを使う。
     echo '<div class="pagination">';
       echo '<ul class="pagination-list">';
-        if($currentPageNum != 1){ //もし、$linkを外すと、は検索用か？。
+        if($currentPageNum != 1){ //もし、$linkを外すと、は検索用か？。空文字を定義することで、変数を定義。検索用のを入れられるよーてこと？
             echo '<li class="list-item"><a href="?p=1'.$link.'">&lt;&lt;</a></li>'; //先頭に戻る
         }
         for($i = $minPageNum; $i <= $maxPageNum; $i++){

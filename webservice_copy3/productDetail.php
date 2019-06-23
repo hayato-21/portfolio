@@ -176,7 +176,7 @@ require('head.php');
         </div>
         <div class="product-buy">
           <div class="item-left">
-              <a href="index.php<?php echo appendGetParam(array('p_id')); ?>">&lt; 商品一覧に戻る</a>  
+              <a href="index.php<?php echo appendGetParam(array('p_id')); ?>">&lt; 商品一覧に戻る</a>  <!-- appendでp_idのみ消す。 -->
           </div>
           <form action="" method="post">
             <div class="item-right">

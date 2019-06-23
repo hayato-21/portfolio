@@ -94,8 +94,8 @@ require('head.php');
         <div class="panel-list">
           <?php
             foreach($dbProductData['data'] as $key => $val):  //詳細ページにリンクする際にGETパラメータを付与している。
-          ?> <!-- !emptyはappendGetParamで値をつくっているのである。無いときはPOST通信時 -->
-            <!-- 自分でURLを指定した時、ページ数は消せる。そのため?-->
+          ?>
+            <!-- appendはGET通信があった時に、つまり、ページネーション、検索した時に-->
             <a href="productDetail.php<?php echo (!empty(appendGetParam())) ? appendGetParam().'&p_id='.$val['id']: '?p_id='.$val['id']; ?>" class="panel">
               <div class="panel-head">
                 <img src="<?php echo sanitize($val['pic1']); ?>" alt="<?php echo sanitize($val['name']); ?>">

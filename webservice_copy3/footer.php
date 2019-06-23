@@ -37,16 +37,17 @@
       });
       $fileInput.on('change', function(e){
           $dropArea.css('border', 'none');
-          var file = this.files[0],
+          var file = this.files[0], //2.files配列にファイルが入っています。
               
-          $img = $(this).siblings('.prev-img'),
-          fileReader = new FileReader();
+          $img = $(this).siblings('.prev-img'), //3. jQueryのsiblingsメソッドで兄弟のimgを取得
+          fileReader = new FileReader();  // 4. ファイルを読み込むFileReaderオブジェクト
           
-          fileReader.onload = function(event){ //読み込みの開始
-              
+          //5 読み込みが完了した際のイベントハンドラ。imgのsrcにデータをセット
+          fileReader.onload = function(event){
+            // 読み込んだデータをimgに設定
             $img.attr('src', event.target.result).show();
           };
-          
+          // 6. 画像の読み込み
           fileReader.readAsDataURL(file);  //画像をURLとして読み込む
       });
       
@@ -66,6 +67,24 @@
       
       // お気に入り登録・削除
       var $like,likeProductId;
+      $like = $('.js-click-like') || null;
+      likeProductId = $like.data('prodocutid') || null;
+  if(likeProductId !== undefined && likeProductId !== null){
+      $like.on('click', function(){
+        var $this = $(this);
+        $.ajax({
+            type: "POST", //ここで、POST通信を設定してあげているのか。アイコン押すだけじゃ通信出来ないよね
+            url: "ajaxLike.php",
+            data: {productId : likeProductId} //自分で指定したデータ型
+        }),done(function(data){
+            console.log('Ajax Success');
+            // クラス属性をtoggleで付け外しする
+            $this.toggleClass('active');
+        }).fail(function(msg){
+            console.log('Ajax Error');
+        });
+      });
+  }
       
   });
 </script>

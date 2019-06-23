@@ -1,0 +1,78 @@
+<!-- 1.フリー検索ボックスを作る。メルカリを参考にしながら
+     2.勉強の記録用のCSSを作る。
+     3.-->
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME | WE STUDY</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body class="page-home page-1colum">
+   
+  <!-- メニュー -->
+  <header>
+    <div class="site-width">
+      <h1><a href="index.html">We Study </a></h1>
+      <nav id="top-nav">
+        <ul>
+          <li><a href="signup.html" class="btn btn-primary">ユーザー登録</a></li>
+          <li><a href="login.html">ログイン</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+   
+   <!-- メインコンテンツ -->
+   <diV Id="contents" class="site-width">
+       
+     <!-- サイドバー -->
+     <section id="sidebar">
+       <form action="">
+         <h1 class="title">カテゴリー</h1>
+         <div class="selectbox">
+           <span class="icn_select"></span>
+           <select name="category" id="">
+             <option value="1">html＆css/option>
+             <option value="2">Javascript＆jQuery</option>
+             <option value="3">php＆mysql</option>
+             <option value="4">Java</option>
+             <option value="5">その他</option>
+           </select>
+         </div>
+         <h1 class="title">表示順</h1>
+         <div class="selectbox">
+           <span class="icn_select"></span>
+           <select name="sort">
+             <option value="1">考え中 キーワード検索</option>
+             <option value="2">考え中</option>
+           </select>
+         </div>
+         <input type="submit" value="検索">
+       </form>
+     </section>
+     
+     <!-- Main -->
+     <section id="main">
+       <div class="search-title">
+         <div class="search-left">
+           <span class="total-num">104</span>件の商品が見つかりました
+         </div>
+         <div class="search-right">
+           <span class="num">1</span> - <span class="num">20</span>件 / <span class="num">104</span>件中
+         </div>
+       </div>
+       <div class="panel-list">
+         <a href="log-Detail.html">
+           <div class=""></div>
+         </a>
+       </div>
+     </section>
+   </diV>
+    
+</body>
+</html>
