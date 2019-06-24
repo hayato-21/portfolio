@@ -68,7 +68,7 @@
       // お気に入り登録・削除
       var $like,likeProductId;
       $like = $('.js-click-like') || null;
-      likeProductId = $like.data('prodocutid') || null;
+      likeProductId = $like.data('productid') || null;
   if(likeProductId !== undefined && likeProductId !== null){
       $like.on('click', function(){
         var $this = $(this);
