@@ -1,0 +1,1441 @@
+[09-Apr-2016 05:27:39 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, boolean given in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 44
+[09-Apr-2016 05:28:09 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, boolean given in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 44
+[09-Apr-2016 05:28:25 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, boolean given in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 44
+[09-Apr-2016 05:29:02 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, boolean given in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 45
+[09-Apr-2016 05:29:52 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, boolean given in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 46
+[09-Apr-2016 05:38:19 Asia/Tokyo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/webservice_practice02/login.php:30) in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 49
+[09-Apr-2016 15:26:24 Asia/Tokyo] PHP Notice:  Undefined index: pass_save in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 52
+[09-Apr-2016 15:27:24 Asia/Tokyo] PHP Notice:  Undefined index: pass_save in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 52
+[09-Apr-2016 15:46:59 Asia/Tokyo] デバッグ：POST送信
+[09-Apr-2016 15:46:59 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 15:46:59 Asia/Tokyo] デバッグ：パスワードアンマッチ
+[09-Apr-2016 15:47:19 Asia/Tokyo] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 39
+[09-Apr-2016 15:47:19 Asia/Tokyo] デバッグ：POST送信
+[09-Apr-2016 15:47:19 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 15:47:20 Asia/Tokyo] デバッグ：パスワードアンマッチ
+[09-Apr-2016 15:47:21 Asia/Tokyo] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 39
+[09-Apr-2016 15:47:21 Asia/Tokyo] デバッグ：POST送信
+[09-Apr-2016 15:47:21 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 15:47:21 Asia/Tokyo] デバッグ：パスワードアンマッチ
+[09-Apr-2016 15:47:30 Asia/Tokyo] デバッグ：POST送信
+[09-Apr-2016 15:47:30 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 15:47:30 Asia/Tokyo] デバッグ：パスワードアンマッチ
+[09-Apr-2016 15:47:56 Asia/Tokyo] デバッグ：POST送信
+[09-Apr-2016 15:47:56 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 15:47:56 Asia/Tokyo] デバッグ：パスワードアンマッチ
+[09-Apr-2016 15:48:06 Asia/Tokyo] デバッグ：POST送信
+[09-Apr-2016 15:48:06 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 15:48:06 Asia/Tokyo] デバッグ：パスワードアンマッチ
+[09-Apr-2016 15:48:20 Asia/Tokyo] デバッグ：POST送信
+[09-Apr-2016 15:48:20 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 15:48:21 Asia/Tokyo] デバッグ：パスワードアンマッチ
+[09-Apr-2016 15:48:27 Asia/Tokyo] デバッグ：POST送信
+[09-Apr-2016 15:48:27 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 15:48:27 Asia/Tokyo] デバッグ：パスワードアンマッチ
+[09-Apr-2016 15:49:51 Asia/Tokyo] デバッグ：POST送信
+[09-Apr-2016 15:49:51 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 15:49:51 Asia/Tokyo] デバッグ：パスワードアンマッチ
+[09-Apr-2016 15:52:19 Asia/Tokyo] デバッグ：未ログイン済み
+[09-Apr-2016 15:52:19 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 15:52:19 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 15:52:19 Asia/Tokyo] デバッグ：パスワードアンマッチ
+[09-Apr-2016 15:52:44 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 15:52:44 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 15:52:44 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 15:52:44 Asia/Tokyo] デバッグ：パスワードアンマッチ
+[09-Apr-2016 15:53:03 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 15:53:03 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 15:53:03 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 15:53:04 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 15:53:04 Asia/Tokyo] PHP Warning:  date() expects at least 1 parameter, 0 given in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 109
+[09-Apr-2016 15:53:04 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 15:53:04 Asia/Tokyo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/webservice_practice02/login.php:109) in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 122
+[09-Apr-2016 15:55:32 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 15:55:32 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 15:55:32 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 15:55:32 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 15:55:32 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 15:56:48 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 15:56:49 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 15:56:51 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 15:57:35 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 15:59:57 Asia/Tokyo] デバッグ：1
+[09-Apr-2016 15:59:57 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:00:15 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:00:31 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:00:31 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:00:31 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:00:31 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:00:31 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:00:31 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:00:31 Asia/Tokyo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/webservice_practice02/login.php:34) in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 124
+[09-Apr-2016 16:00:54 Asia/Tokyo] デバッグ：1
+[09-Apr-2016 16:00:54 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:00:54 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:00:54 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:00:55 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:00:55 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:00:55 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:00:55 Asia/Tokyo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/webservice_practice02/login.php:34) in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 124
+[09-Apr-2016 16:02:00 Asia/Tokyo] デバッグ：Array
+(
+)
+
+[09-Apr-2016 16:02:00 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:02:00 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:02:00 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:02:00 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:02:00 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:02:00 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:02:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:02:39 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:03:07 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:03:07 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:03:07 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:03:07 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:03:08 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:03:08 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:03:08 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:03:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:03:09 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:05:59 Asia/Tokyo] デバッグ：セッションID：622516bb3d99b63103f4b1bac07b4152
+[09-Apr-2016 16:05:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:05:59 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:08:51 Asia/Tokyo] デバッグ：セッションID：a8be3c41a0e12bda91aa2b694cd6a241
+[09-Apr-2016 16:08:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:09:03 Asia/Tokyo] デバッグ：セッションID：541f0fa796ea4bd97100876245c8cbc1
+[09-Apr-2016 16:09:03 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:09:03 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:09:03 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:09:03 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:09:03 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:09:03 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:09:10 Asia/Tokyo] デバッグ：セッションID：560923bb2831be0579679f8186fb3e35
+[09-Apr-2016 16:09:10 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460185743
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:12:43 Asia/Tokyo] デバッグ：セッションID：6c618263e7c0eaf7aaedb342e0fc6907
+[09-Apr-2016 16:12:43 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460185743
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:12:59 Asia/Tokyo] デバッグ：セッションID：c50618e45802d133ae98422283fb8d7f
+[09-Apr-2016 16:12:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460185743
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:12:59 Asia/Tokyo] デバッグ：ログイン済みユーザー
+[09-Apr-2016 16:12:59 Asia/Tokyo] デバッグ：ログイン有効期限オーバー
+[09-Apr-2016 16:12:59 Asia/Tokyo] デバッグ：セッションID：ad26b5383cb058de815adb56e181c599
+[09-Apr-2016 16:12:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:12:59 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:13:55 Asia/Tokyo] デバッグ：セッションID：9f57ce7f81e7fce32f9f60a5faf15285
+[09-Apr-2016 16:13:55 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:13:55 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:13:55 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:13:55 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:13:55 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:13:55 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:13:55 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:13:56 Asia/Tokyo] デバッグ：セッションID：892d075d0ec19d0d9f386493003b43da
+[09-Apr-2016 16:13:56 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:13:56 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:14:31 Asia/Tokyo] デバッグ：セッションID：eaac1f2b0bb2d28cd2a40e754edd9248
+[09-Apr-2016 16:14:31 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:14:31 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:14:31 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:14:31 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:14:31 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:14:31 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:14:31 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:16:59 Asia/Tokyo] デバッグ：セッションID：f1b444bfc41f42a1db4d6ec9805e75f1
+[09-Apr-2016 16:16:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:16:59 Asia/Tokyo] PHP Warning:  date() expects at least 1 parameter, 0 given in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 36
+[09-Apr-2016 16:16:59 Asia/Tokyo] デバッグ：現在日時：
+[09-Apr-2016 16:16:59 Asia/Tokyo] PHP Notice:  Undefined index: login_date in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 37
+[09-Apr-2016 16:16:59 Asia/Tokyo] PHP Notice:  Undefined index: login_limit in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 37
+[09-Apr-2016 16:16:59 Asia/Tokyo] デバッグ：0
+[09-Apr-2016 16:17:08 Asia/Tokyo] デバッグ：セッションID：f20cc3494e939d96d3c5069af871e699
+[09-Apr-2016 16:17:08 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:17:08 Asia/Tokyo] デバッグ：現在日時：1460186228
+[09-Apr-2016 16:17:08 Asia/Tokyo] PHP Notice:  Undefined index: login_date in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 37
+[09-Apr-2016 16:17:08 Asia/Tokyo] PHP Notice:  Undefined index: login_limit in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 37
+[09-Apr-2016 16:17:08 Asia/Tokyo] デバッグ：0
+[09-Apr-2016 16:17:34 Asia/Tokyo] デバッグ：セッションID：8931cd18fdafb4b3fd9b42d6faa938d0
+[09-Apr-2016 16:17:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:17:34 Asia/Tokyo] デバッグ：現在日時：1460186254
+[09-Apr-2016 16:17:34 Asia/Tokyo] PHP Notice:  Undefined index: login_date in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 37
+[09-Apr-2016 16:17:34 Asia/Tokyo] PHP Notice:  Undefined index: login_limit in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 37
+[09-Apr-2016 16:17:34 Asia/Tokyo] デバッグ：0
+[09-Apr-2016 16:17:34 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:17:34 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:17:34 Asia/Tokyo] デバッグ：パスワードアンマッチ
+[09-Apr-2016 16:17:38 Asia/Tokyo] デバッグ：セッションID：058ebfa4d14f912905e54eeb8cbed9af
+[09-Apr-2016 16:17:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:17:38 Asia/Tokyo] デバッグ：現在日時：1460186258
+[09-Apr-2016 16:17:38 Asia/Tokyo] PHP Notice:  Undefined index: login_date in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 37
+[09-Apr-2016 16:17:38 Asia/Tokyo] PHP Notice:  Undefined index: login_limit in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 37
+[09-Apr-2016 16:17:38 Asia/Tokyo] デバッグ：0
+[09-Apr-2016 16:17:38 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:17:38 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:17:39 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:17:39 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:17:39 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:17:39 Asia/Tokyo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/webservice_practice02/login.php:37) in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 104
+[09-Apr-2016 16:18:52 Asia/Tokyo] デバッグ：セッションID：536fe8bd90725291075c31c6aeee8d75
+[09-Apr-2016 16:18:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460186259
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:18:52 Asia/Tokyo] デバッグ：現在日時：1460186332
+[09-Apr-2016 16:18:52 Asia/Tokyo] デバッグ：3600
+[09-Apr-2016 16:18:52 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:18:52 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:18:52 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:18:52 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:18:52 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:19:00 Asia/Tokyo] デバッグ：セッションID：3a3fa7866093da3739e1a272148e9606
+[09-Apr-2016 16:19:00 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460186332
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:19:00 Asia/Tokyo] デバッグ：現在日時：1460186340
+[09-Apr-2016 16:19:00 Asia/Tokyo] デバッグ：3600
+[09-Apr-2016 16:20:33 Asia/Tokyo] デバッグ：セッションID：96905d7bbe50324b8533d64b0c850252
+[09-Apr-2016 16:20:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460186332
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:20:33 Asia/Tokyo] デバッグ：現在日時：1460186433
+[09-Apr-2016 16:20:33 Asia/Tokyo] デバッグ：3600
+[09-Apr-2016 16:21:35 Asia/Tokyo] デバッグ：セッションID：0d1e469603bd332f1484f640f09cb135
+[09-Apr-2016 16:21:35 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460186332
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:21:35 Asia/Tokyo] デバッグ：現在日時：1460186495
+[09-Apr-2016 16:21:35 Asia/Tokyo] デバッグ：3600
+[09-Apr-2016 16:22:12 Asia/Tokyo] デバッグ：セッションID：511ac4e3b3b595a6dc0c46411f963b2e
+[09-Apr-2016 16:22:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460186332
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:22:12 Asia/Tokyo] デバッグ：現在日時：1460186532
+[09-Apr-2016 16:22:12 Asia/Tokyo] デバッグ：ログイン期限：
+[09-Apr-2016 16:22:22 Asia/Tokyo] デバッグ：セッションID：0dee730c1495bae9cd72a922a2e8549e
+[09-Apr-2016 16:22:22 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460186332
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:22:22 Asia/Tokyo] デバッグ：現在日時：1460186542
+[09-Apr-2016 16:22:22 Asia/Tokyo] デバッグ：3600
+[09-Apr-2016 16:22:51 Asia/Tokyo] デバッグ：セッションID：7d04b5fa3eb1d7eea86974056e516480
+[09-Apr-2016 16:22:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460186332
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:22:51 Asia/Tokyo] デバッグ：現在日時：1460186571
+[09-Apr-2016 16:22:51 Asia/Tokyo] デバッグ：ログイン期限：1460189932
+[09-Apr-2016 16:24:12 Asia/Tokyo] デバッグ：セッションID：32c7cb4e71118188a645b42cdc88f973
+[09-Apr-2016 16:24:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460186332
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:24:12 Asia/Tokyo] デバッグ：現在日時：1460186652
+[09-Apr-2016 16:24:12 Asia/Tokyo] デバッグ：ログイン期限：1460189932
+[09-Apr-2016 16:24:12 Asia/Tokyo] デバッグ：ログイン済みユーザー
+[09-Apr-2016 16:24:12 Asia/Tokyo] デバッグ：ログイン有効期限以内
+[09-Apr-2016 16:25:18 Asia/Tokyo] デバッグ：///////////////// 画面表示処理開始 ///////////////////
+[09-Apr-2016 16:25:18 Asia/Tokyo] デバッグ：セッションID：5ac3cf634c1c6fe33420b211f40e93b1
+[09-Apr-2016 16:25:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460186652
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:25:18 Asia/Tokyo] デバッグ：現在日時：1460186718
+[09-Apr-2016 16:25:18 Asia/Tokyo] デバッグ：ログイン期限：1460190252
+[09-Apr-2016 16:25:18 Asia/Tokyo] デバッグ：ログイン済みユーザー
+[09-Apr-2016 16:25:18 Asia/Tokyo] デバッグ：ログイン有効期限以内
+[09-Apr-2016 16:26:05 Asia/Tokyo] デバッグ：
+[09-Apr-2016 16:26:05 Asia/Tokyo] デバッグ：///////////////// 画面表示処理開始 ///////////////////
+[09-Apr-2016 16:26:05 Asia/Tokyo] デバッグ：セッションID：6d625140b328cd0c8eb791cbcbc75253
+[09-Apr-2016 16:26:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460186718
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:26:05 Asia/Tokyo] デバッグ：現在日時：1460186765
+[09-Apr-2016 16:26:05 Asia/Tokyo] デバッグ：ログイン期限：1460190318
+[09-Apr-2016 16:26:05 Asia/Tokyo] デバッグ：ログイン済みユーザー
+[09-Apr-2016 16:26:05 Asia/Tokyo] デバッグ：ログイン有効期限以内
+[09-Apr-2016 16:27:21 Asia/Tokyo] デバッグ：\n///////////////// 画面表示処理開始 ///////////////////
+[09-Apr-2016 16:27:21 Asia/Tokyo] デバッグ：セッションID：7ed815d6f346376f17712b2be4144463
+[09-Apr-2016 16:27:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460186765
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:27:21 Asia/Tokyo] デバッグ：現在日時：1460186841
+[09-Apr-2016 16:27:21 Asia/Tokyo] デバッグ：ログイン期限：1460190365
+[09-Apr-2016 16:27:21 Asia/Tokyo] デバッグ：ログイン済みユーザー
+[09-Apr-2016 16:27:21 Asia/Tokyo] デバッグ：ログイン有効期限以内
+[09-Apr-2016 16:30:34 Asia/Tokyo] デバッグ：[[[[[[[[[[[[[[[[[[[[[[ 画面表示処理開始 [[[[[[[[[[[[[[[[[[[[[[
+[09-Apr-2016 16:30:34 Asia/Tokyo] デバッグ：セッションID：78721f7c7ff269444a0d46008f1ca736
+[09-Apr-2016 16:30:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460186841
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:30:34 Asia/Tokyo] デバッグ：現在日時：1460187034
+[09-Apr-2016 16:30:34 Asia/Tokyo] デバッグ：ログイン期限：1460190441
+[09-Apr-2016 16:30:34 Asia/Tokyo] デバッグ：ログイン済みユーザー
+[09-Apr-2016 16:30:34 Asia/Tokyo] デバッグ：ログイン有効期限以内
+[09-Apr-2016 16:30:34 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:31:41 Asia/Tokyo] デバッグ：[[[[[[[[[[[[[[[[[[[[[[ 画面表示処理開始 [[[[[[[[[[[[[[[[[[[[[[
+[09-Apr-2016 16:31:41 Asia/Tokyo] デバッグ：セッションID：1e7da5ba516763d3f93a0566cc4818de
+[09-Apr-2016 16:31:41 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460187034
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:31:41 Asia/Tokyo] デバッグ：現在日時：1460187101
+[09-Apr-2016 16:31:41 Asia/Tokyo] デバッグ：ログイン期限：1460190634
+[09-Apr-2016 16:31:41 Asia/Tokyo] デバッグ：ログイン済みユーザー
+[09-Apr-2016 16:31:41 Asia/Tokyo] デバッグ：ログイン有効期限以内
+[09-Apr-2016 16:31:41 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:31:41 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:37:21 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:37:21 Asia/Tokyo] デバッグ：セッションID：bc77cb64bcadb9112b085ed404736699
+[09-Apr-2016 16:37:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460187101
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:37:21 Asia/Tokyo] デバッグ：現在日時：1460187441
+[09-Apr-2016 16:37:21 Asia/Tokyo] デバッグ：ログイン期限：1460190701
+[09-Apr-2016 16:37:21 Asia/Tokyo] デバッグ：ログイン済みユーザー
+[09-Apr-2016 16:37:21 Asia/Tokyo] デバッグ：ログイン有効期限以内
+[09-Apr-2016 16:37:21 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:37:21 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:38:11 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:38:11 Asia/Tokyo] デバッグ：セッションID：44beb05705d16ef308de36c2072fed6b
+[09-Apr-2016 16:38:11 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460187441
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:38:11 Asia/Tokyo] デバッグ：現在日時：1460187491
+[09-Apr-2016 16:38:11 Asia/Tokyo] デバッグ：ログイン期限：1460191041
+[09-Apr-2016 16:38:11 Asia/Tokyo] デバッグ：ログイン済みユーザー
+[09-Apr-2016 16:38:11 Asia/Tokyo] デバッグ：ログイン有効期限以内
+[09-Apr-2016 16:38:11 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:38:11 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:39:17 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:39:17 Asia/Tokyo] デバッグ：セッションID：096302d4cb068be3fb58f98869ef78a4
+[09-Apr-2016 16:39:17 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:39:17 Asia/Tokyo] デバッグ：現在日時：1460187557
+[09-Apr-2016 16:39:17 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:39:17 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:39:48 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:39:48 Asia/Tokyo] デバッグ：セッションID：2bed2cdb0908d3e88b95dcae18d8c92b
+[09-Apr-2016 16:39:48 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:39:48 Asia/Tokyo] デバッグ：現在日時：1460187588
+[09-Apr-2016 16:39:48 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:39:48 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:39:48 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:39:51 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:39:51 Asia/Tokyo] デバッグ：セッションID：716160619b9318164edd1bcf1f5034e5
+[09-Apr-2016 16:39:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:39:51 Asia/Tokyo] デバッグ：現在日時：1460187591
+[09-Apr-2016 16:39:51 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:39:51 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:39:51 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:40:05 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:40:05 Asia/Tokyo] デバッグ：セッションID：199ef1df69bed2d0bf4377916fc555a6
+[09-Apr-2016 16:40:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:40:05 Asia/Tokyo] デバッグ：現在日時：1460187605
+[09-Apr-2016 16:40:05 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:40:05 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:40:05 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:40:07 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:40:07 Asia/Tokyo] デバッグ：セッションID：653ee1967a2f096eb6bcb7ceea569aff
+[09-Apr-2016 16:40:07 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:40:07 Asia/Tokyo] デバッグ：現在日時：1460187607
+[09-Apr-2016 16:40:07 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:40:07 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:40:07 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:40:11 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:40:11 Asia/Tokyo] デバッグ：セッションID：2499ca89906c8ca56063cb4f1673ccf3
+[09-Apr-2016 16:40:11 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:40:11 Asia/Tokyo] デバッグ：現在日時：1460187611
+[09-Apr-2016 16:40:11 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:40:11 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:40:11 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:40:11 Asia/Tokyo] デバッグ：パスワードアンマッチ
+[09-Apr-2016 16:40:11 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:40:53 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:40:53 Asia/Tokyo] デバッグ：セッションID：f3bd02d0df73257e8d293dff61518010
+[09-Apr-2016 16:40:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:40:53 Asia/Tokyo] デバッグ：現在日時：1460187653
+[09-Apr-2016 16:40:53 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:40:53 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:40:53 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:40:53 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:40:53 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:40:53 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:40:53 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:41:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:41:13 Asia/Tokyo] デバッグ：セッションID：a4de73a9144d67621cbc3b8913a425a1
+[09-Apr-2016 16:41:13 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:41:13 Asia/Tokyo] デバッグ：現在日時：1460187673
+[09-Apr-2016 16:41:13 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:41:13 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:41:42 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:41:42 Asia/Tokyo] デバッグ：セッションID：516d3c6813cc9fb1770bfc0814a8de9e
+[09-Apr-2016 16:41:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:41:42 Asia/Tokyo] デバッグ：現在日時：1460187702
+[09-Apr-2016 16:41:42 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:41:42 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:41:42 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:41:42 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, boolean given in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 112
+[09-Apr-2016 16:41:42 Asia/Tokyo] デバッグ：パスワードアンマッチ
+[09-Apr-2016 16:41:42 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:42:40 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:42:40 Asia/Tokyo] デバッグ：セッションID：7c01b9aa8ab2ff5414d5f6573baea424
+[09-Apr-2016 16:42:40 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:42:40 Asia/Tokyo] デバッグ：現在日時：1460187760
+[09-Apr-2016 16:42:40 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:42:40 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:42:40 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:42:40 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, boolean given in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 112
+[09-Apr-2016 16:42:40 Asia/Tokyo] デバッグ：パスワードアンマッチ
+[09-Apr-2016 16:42:40 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:42:46 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:42:46 Asia/Tokyo] デバッグ：セッションID：c946d05bb593c921df1e43cef326198a
+[09-Apr-2016 16:42:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:42:46 Asia/Tokyo] デバッグ：現在日時：1460187766
+[09-Apr-2016 16:42:46 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:42:46 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:42:46 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:42:46 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, boolean given in /Applications/MAMP/htdocs/webservice_practice02/login.php on line 112
+[09-Apr-2016 16:42:46 Asia/Tokyo] デバッグ：パスワードアンマッチ
+[09-Apr-2016 16:42:46 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:42:57 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:42:57 Asia/Tokyo] デバッグ：セッションID：1bbf0928d3857da59c266a0e06fbc489
+[09-Apr-2016 16:42:57 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:42:57 Asia/Tokyo] デバッグ：現在日時：1460187777
+[09-Apr-2016 16:42:57 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:42:57 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:42:57 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:42:57 Asia/Tokyo] デバッグ：パスワードアンマッチ
+[09-Apr-2016 16:42:57 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:43:05 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:43:05 Asia/Tokyo] デバッグ：セッションID：1783d8b274d7624feb726f7b74b902e5
+[09-Apr-2016 16:43:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:43:05 Asia/Tokyo] デバッグ：現在日時：1460187785
+[09-Apr-2016 16:43:05 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:43:05 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:43:05 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:43:05 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:43:05 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:43:05 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:43:05 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:43:17 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:43:17 Asia/Tokyo] デバッグ：セッションID：d150607c58cc8425de729cfcfdf736cc
+[09-Apr-2016 16:43:17 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:43:17 Asia/Tokyo] デバッグ：現在日時：1460187797
+[09-Apr-2016 16:43:17 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:43:17 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:44:50 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:44:50 Asia/Tokyo] デバッグ：セッションID：d3fc06a4e0e37b4084a78bca2b05ca67
+[09-Apr-2016 16:44:50 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:44:50 Asia/Tokyo] デバッグ：現在日時：1460187890
+[09-Apr-2016 16:44:50 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:44:50 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:44:50 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:44:51 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:44:51 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:44:51 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:44:51 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:45:36 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:45:36 Asia/Tokyo] デバッグ：セッションID：bea73fdfabf6406298acac485467a325
+[09-Apr-2016 16:45:36 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:45:36 Asia/Tokyo] デバッグ：現在日時：1460187936
+[09-Apr-2016 16:45:36 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:45:36 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:46:48 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:46:48 Asia/Tokyo] デバッグ：セッションID：581034e59713e51bbc2cbd57f8c12628
+[09-Apr-2016 16:46:48 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:46:48 Asia/Tokyo] デバッグ：現在日時：1460188008
+[09-Apr-2016 16:46:48 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:46:48 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:46:48 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:46:48 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:46:48 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:46:48 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:46:50 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:46:50 Asia/Tokyo] デバッグ：セッションID：c5dbdbd50e24fec000f9c4f5b4dccef7
+[09-Apr-2016 16:46:50 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460188008
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:46:50 Asia/Tokyo] デバッグ：現在日時：1460188010
+[09-Apr-2016 16:46:50 Asia/Tokyo] デバッグ：ログイン期限：1460191608
+[09-Apr-2016 16:46:50 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:46:52 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:46:52 Asia/Tokyo] デバッグ：セッションID：fd806e0086772f3b04f404843dc9d935
+[09-Apr-2016 16:46:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460188008
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:46:52 Asia/Tokyo] デバッグ：現在日時：1460188012
+[09-Apr-2016 16:46:52 Asia/Tokyo] デバッグ：ログイン期限：1460191608
+[09-Apr-2016 16:46:52 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:47:59 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:47:59 Asia/Tokyo] デバッグ：セッションID：94fe249c171441aaccc27d729efc1fe4
+[09-Apr-2016 16:47:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460188008
+    [login_limit] => 3600
+)
+
+[09-Apr-2016 16:47:59 Asia/Tokyo] デバッグ：現在日時：1460188079
+[09-Apr-2016 16:47:59 Asia/Tokyo] デバッグ：ログイン期限：1460191608
+[09-Apr-2016 16:47:59 Asia/Tokyo] デバッグ：ログイン済みユーザー
+[09-Apr-2016 16:47:59 Asia/Tokyo] デバッグ：ログイン有効期限以内
+[09-Apr-2016 16:47:59 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:47:59 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:48:43 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:48:43 Asia/Tokyo] デバッグ：セッションID：174b535f3d44089d09947751ace43066
+[09-Apr-2016 16:48:43 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:48:43 Asia/Tokyo] デバッグ：現在日時：1460188123
+[09-Apr-2016 16:48:43 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:48:43 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:48:49 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:48:49 Asia/Tokyo] デバッグ：セッションID：437e635443d08bbba4c8f838643b6908
+[09-Apr-2016 16:48:49 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:48:49 Asia/Tokyo] デバッグ：現在日時：1460188129
+[09-Apr-2016 16:48:49 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:48:49 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:48:49 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:48:49 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:48:49 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:48:49 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:48:49 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:49:16 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:49:16 Asia/Tokyo] デバッグ：セッションID：0495c76b8dc808a98e52fe9e47071fb4
+[09-Apr-2016 16:49:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:49:16 Asia/Tokyo] デバッグ：現在日時：1460188156
+[09-Apr-2016 16:49:16 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:49:16 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:50:20 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:50:20 Asia/Tokyo] デバッグ：セッションID：2ddc7bba6622e2933264d88c69465a07
+[09-Apr-2016 16:50:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:50:20 Asia/Tokyo] デバッグ：現在日時：1460188220
+[09-Apr-2016 16:50:20 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:50:20 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:50:20 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:50:20 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:50:20 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:50:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460188220
+    [login_limit] => 60
+)
+
+[09-Apr-2016 16:50:20 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:50:20 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:50:38 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:50:38 Asia/Tokyo] デバッグ：セッションID：1388877b755db772120131efc0372f02
+[09-Apr-2016 16:50:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:50:38 Asia/Tokyo] デバッグ：現在日時：1460188238
+[09-Apr-2016 16:50:38 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:50:38 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:51:29 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:51:29 Asia/Tokyo] デバッグ：セッションID：6c6377bc8ca60ab381f986bab1d7502e
+[09-Apr-2016 16:51:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:51:29 Asia/Tokyo] デバッグ：現在日時：1460188289
+[09-Apr-2016 16:51:29 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:51:29 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:51:34 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:51:34 Asia/Tokyo] デバッグ：セッションID：398740511112a9d179c4addabf0688bb
+[09-Apr-2016 16:51:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:51:34 Asia/Tokyo] デバッグ：現在日時：1460188294
+[09-Apr-2016 16:51:34 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:51:34 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:51:34 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:51:34 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:51:34 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:51:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460188294
+    [login_limit] => 60
+)
+
+[09-Apr-2016 16:51:34 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:51:34 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:51:36 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:51:36 Asia/Tokyo] デバッグ：セッションID：f2ade51f853cafca80dac589d26e6b39
+[09-Apr-2016 16:51:36 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:51:36 Asia/Tokyo] デバッグ：現在日時：1460188296
+[09-Apr-2016 16:51:36 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:51:36 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:52:52 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:52:52 Asia/Tokyo] デバッグ：セッションID：d3386f058919c2b9c965abfef4a3a881
+[09-Apr-2016 16:52:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:52:52 Asia/Tokyo] デバッグ：現在日時：1460188372
+[09-Apr-2016 16:52:52 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:52:52 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:52:52 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:52:52 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:52:52 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:52:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460188372
+    [login_limit] => 60
+)
+
+[09-Apr-2016 16:52:52 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:52:52 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:53:28 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:53:28 Asia/Tokyo] デバッグ：セッションID：fe0ba499e4b28907aceb0bcc8091b386
+[09-Apr-2016 16:53:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:53:28 Asia/Tokyo] デバッグ：現在日時：1460188408
+[09-Apr-2016 16:53:28 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:53:28 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:54:01 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:54:01 Asia/Tokyo] デバッグ：セッションID：2a085996c326f252266fb8d9fb156629
+[09-Apr-2016 16:54:01 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:54:01 Asia/Tokyo] デバッグ：現在日時：1460188441
+[09-Apr-2016 16:54:01 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:54:01 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:54:01 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:54:01 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:54:01 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:54:01 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460188441
+    [login_limit] => 60
+)
+
+[09-Apr-2016 16:54:01 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:54:01 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:54:04 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:54:04 Asia/Tokyo] デバッグ：セッションID：87df4415cb263a6c04bfe51ac4e20fee
+[09-Apr-2016 16:54:04 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:54:04 Asia/Tokyo] デバッグ：現在日時：1460188444
+[09-Apr-2016 16:54:04 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:54:04 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:54:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:54:13 Asia/Tokyo] デバッグ：セッションID：87df4415cb263a6c04bfe51ac4e20fee
+[09-Apr-2016 16:54:13 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:54:13 Asia/Tokyo] デバッグ：現在日時：1460188453
+[09-Apr-2016 16:54:13 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:54:13 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:54:13 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:54:14 Asia/Tokyo] デバッグ：パスワードアンマッチ
+[09-Apr-2016 16:54:14 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:54:17 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:54:17 Asia/Tokyo] デバッグ：セッションID：87df4415cb263a6c04bfe51ac4e20fee
+[09-Apr-2016 16:54:17 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:54:17 Asia/Tokyo] デバッグ：現在日時：1460188457
+[09-Apr-2016 16:54:17 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:54:17 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:54:17 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:54:18 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:54:18 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:54:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460188458
+    [login_limit] => 60
+)
+
+[09-Apr-2016 16:54:18 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:54:18 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:54:21 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:54:21 Asia/Tokyo] デバッグ：セッションID：87df4415cb263a6c04bfe51ac4e20fee
+[09-Apr-2016 16:54:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:54:21 Asia/Tokyo] デバッグ：現在日時：1460188461
+[09-Apr-2016 16:54:21 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:54:21 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:56:38 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:56:38 Asia/Tokyo] デバッグ：セッションID：3a07f5bd14339668fc40407c9e8cbca1
+[09-Apr-2016 16:56:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:56:38 Asia/Tokyo] デバッグ：現在日時：1460188598
+[09-Apr-2016 16:56:38 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:56:38 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:56:38 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:56:38 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:56:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460188598
+    [login_limit] => 60
+)
+
+[09-Apr-2016 16:56:38 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:56:38 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:56:41 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:56:41 Asia/Tokyo] デバッグ：セッションID：a59e65a1137fa2b892204c4602c332b5
+[09-Apr-2016 16:56:41 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460188598
+    [login_limit] => 60
+)
+
+[09-Apr-2016 16:56:41 Asia/Tokyo] デバッグ：現在日時：1460188601
+[09-Apr-2016 16:56:41 Asia/Tokyo] デバッグ：ログイン期限：1460188658
+[09-Apr-2016 16:56:41 Asia/Tokyo] デバッグ：ログイン済みユーザー
+[09-Apr-2016 16:56:41 Asia/Tokyo] デバッグ：ログイン有効期限以内
+[09-Apr-2016 16:56:41 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:56:41 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:58:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:58:13 Asia/Tokyo] デバッグ：セッションID：6eeb119fe7a2b955e80e25d639eabc5a
+[09-Apr-2016 16:58:13 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:58:13 Asia/Tokyo] デバッグ：現在日時：1460188693
+[09-Apr-2016 16:58:13 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:58:13 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:58:18 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:58:18 Asia/Tokyo] デバッグ：セッションID：94331515eccd28ae57888ea57151aaa0
+[09-Apr-2016 16:58:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 16:58:18 Asia/Tokyo] デバッグ：現在日時：1460188698
+[09-Apr-2016 16:58:18 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 16:58:18 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 16:58:18 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 16:58:19 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 16:58:19 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 16:58:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460188699
+    [login_limit] => 60
+)
+
+[09-Apr-2016 16:58:19 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:58:19 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 16:58:21 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 16:58:21 Asia/Tokyo] デバッグ：セッションID：c5b19056f7649ed0747a88a51089debd
+[09-Apr-2016 16:58:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460188699
+    [login_limit] => 60
+)
+
+[09-Apr-2016 16:58:21 Asia/Tokyo] デバッグ：現在日時：1460188701
+[09-Apr-2016 16:58:21 Asia/Tokyo] デバッグ：ログイン期限：1460188759
+[09-Apr-2016 16:58:21 Asia/Tokyo] デバッグ：ログイン済みユーザー
+[09-Apr-2016 16:58:21 Asia/Tokyo] デバッグ：ログイン有効期限以内
+[09-Apr-2016 16:58:21 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 16:58:21 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 17:00:18 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 17:00:18 Asia/Tokyo] デバッグ：セッションID：d5b9f805bc5dfe98b7ccbcd7131942c9
+[09-Apr-2016 17:00:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460188701
+    [login_limit] => 60
+)
+
+[09-Apr-2016 17:00:18 Asia/Tokyo] デバッグ：現在日時：1460188818
+[09-Apr-2016 17:00:18 Asia/Tokyo] デバッグ：ログイン期限：1460188761
+[09-Apr-2016 17:00:18 Asia/Tokyo] デバッグ：ログイン済みユーザー
+[09-Apr-2016 17:00:18 Asia/Tokyo] デバッグ：ログイン有効期限オーバー
+[09-Apr-2016 17:00:18 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 17:00:18 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 17:00:18 Asia/Tokyo] デバッグ：セッションID：6ef6a148c45b189dda1002b5b58dac8b
+[09-Apr-2016 17:00:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 17:00:18 Asia/Tokyo] デバッグ：現在日時：1460188818
+[09-Apr-2016 17:00:18 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 17:00:18 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 17:01:00 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 17:01:00 Asia/Tokyo] デバッグ：セッションID：f9fbe90dccea23a78e849f7fac979490
+[09-Apr-2016 17:01:00 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Apr-2016 17:01:00 Asia/Tokyo] デバッグ：現在日時：1460188860
+[09-Apr-2016 17:01:00 Asia/Tokyo] デバッグ：未ログインユーザー
+[09-Apr-2016 17:01:00 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 17:01:00 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 17:01:01 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 17:01:01 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 17:01:01 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460188861
+    [login_limit] => 60
+)
+
+[09-Apr-2016 17:01:01 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 17:01:01 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 17:06:46 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 17:06:46 Asia/Tokyo] デバッグ：セッションID：d3f82fb7248d2ac6098545613a6aea1e
+[09-Apr-2016 17:06:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460188861
+    [login_limit] => 60
+)
+
+[09-Apr-2016 17:06:46 Asia/Tokyo] デバッグ：現在日時：1460189206
+[09-Apr-2016 17:06:46 Asia/Tokyo] デバッグ：ログイン期限：1460188921
+[09-Apr-2016 17:06:46 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 17:06:50 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 17:06:50 Asia/Tokyo] デバッグ：セッションID：d34f5d40b0a79eb6f05ffa579e561d85
+[09-Apr-2016 17:06:50 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460188861
+    [login_limit] => 60
+)
+
+[09-Apr-2016 17:06:50 Asia/Tokyo] デバッグ：現在日時：1460189210
+[09-Apr-2016 17:06:50 Asia/Tokyo] デバッグ：ログイン期限：1460188921
+[09-Apr-2016 17:06:50 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 17:06:50 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 17:06:50 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 17:06:50 Asia/Tokyo] デバッグ：ログイン保持チェックなし
+[09-Apr-2016 17:06:50 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460189210
+    [login_limit] => 60
+)
+
+[09-Apr-2016 17:06:50 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 17:06:50 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 17:07:03 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 17:07:03 Asia/Tokyo] デバッグ：セッションID：123dc6d286372db0c17e0508438b64f6
+[09-Apr-2016 17:07:03 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460189210
+    [login_limit] => 60
+)
+
+[09-Apr-2016 17:07:03 Asia/Tokyo] デバッグ：現在日時：1460189223
+[09-Apr-2016 17:07:03 Asia/Tokyo] デバッグ：ログイン期限：1460189270
+[09-Apr-2016 17:07:03 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 17:07:09 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 17:07:09 Asia/Tokyo] デバッグ：セッションID：60e47437f23fd1e13f0af1a62751897f
+[09-Apr-2016 17:07:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460189210
+    [login_limit] => 60
+)
+
+[09-Apr-2016 17:07:09 Asia/Tokyo] デバッグ：現在日時：1460189229
+[09-Apr-2016 17:07:09 Asia/Tokyo] デバッグ：ログイン期限：1460189270
+[09-Apr-2016 17:07:09 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 17:07:09 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 17:07:09 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 17:07:09 Asia/Tokyo] デバッグ：ログイン保持チェックあり
+[09-Apr-2016 17:07:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460189229
+    [login_limit] => 2592000
+)
+
+[09-Apr-2016 17:07:09 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 17:07:09 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 17:08:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 17:08:12 Asia/Tokyo] デバッグ：セッションID：c987f87ea16b98dbdb6a9972d310b6b6
+[09-Apr-2016 17:08:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460189229
+    [login_limit] => 2592000
+)
+
+[09-Apr-2016 17:08:12 Asia/Tokyo] デバッグ：現在日時：1460189292
+[09-Apr-2016 17:08:12 Asia/Tokyo] デバッグ：ログイン期限：1462781229
+[09-Apr-2016 17:08:12 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 17:08:16 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 17:08:16 Asia/Tokyo] デバッグ：セッションID：3045e3dc838d79a7a119a89fb4c68099
+[09-Apr-2016 17:08:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460189229
+    [login_limit] => 2592000
+)
+
+[09-Apr-2016 17:08:16 Asia/Tokyo] デバッグ：現在日時：1460189296
+[09-Apr-2016 17:08:16 Asia/Tokyo] デバッグ：ログイン期限：1462781229
+[09-Apr-2016 17:08:16 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 17:08:16 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 17:08:16 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 17:08:16 Asia/Tokyo] デバッグ：ログイン保持チェックあり
+[09-Apr-2016 17:08:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460189296
+    [login_limit] => 2592000
+)
+
+[09-Apr-2016 17:08:16 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 17:08:16 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 17:09:50 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 17:09:50 Asia/Tokyo] デバッグ：セッションID：982ee8faca0cdc74aec06641efdfc243
+[09-Apr-2016 17:09:50 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460189296
+    [login_limit] => 2592000
+)
+
+[09-Apr-2016 17:09:50 Asia/Tokyo] デバッグ：現在日時：1460189390
+[09-Apr-2016 17:09:50 Asia/Tokyo] デバッグ：ログイン期限：1462781296
+[09-Apr-2016 17:09:50 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 17:10:03 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 17:10:03 Asia/Tokyo] デバッグ：セッションID：ceb38ceb367249f2e48526b489d7eafd
+[09-Apr-2016 17:10:03 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460189296
+    [login_limit] => 2592000
+)
+
+[09-Apr-2016 17:10:03 Asia/Tokyo] デバッグ：現在日時：1460189403
+[09-Apr-2016 17:10:03 Asia/Tokyo] デバッグ：ログイン期限：1462781296
+[09-Apr-2016 17:10:03 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 17:10:03 Asia/Tokyo] デバッグ：バリデーションOK
+[09-Apr-2016 17:10:04 Asia/Tokyo] デバッグ：パスワードマッチ
+[09-Apr-2016 17:10:04 Asia/Tokyo] デバッグ：ログイン保持チェックあり
+[09-Apr-2016 17:10:04 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460189404
+    [login_limit] => 2592000
+)
+
+[09-Apr-2016 17:10:04 Asia/Tokyo] デバッグ：マイページへ遷移
+[09-Apr-2016 17:10:04 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 17:11:53 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 17:11:53 Asia/Tokyo] デバッグ：セッションID：1196f716edaca95c0f6d84264c32a6d2
+[09-Apr-2016 17:11:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460189404
+    [login_limit] => 2592000
+)
+
+[09-Apr-2016 17:11:53 Asia/Tokyo] デバッグ：現在日時：1460189513
+[09-Apr-2016 17:11:53 Asia/Tokyo] デバッグ：ログイン期限：1462781404
+[09-Apr-2016 17:11:53 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 17:12:50 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 17:12:50 Asia/Tokyo] デバッグ：セッションID：bf68cd1085be6163f5493ac6aee64768
+[09-Apr-2016 17:12:50 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460189404
+    [login_limit] => 2592000
+)
+
+[09-Apr-2016 17:12:50 Asia/Tokyo] デバッグ：現在日時：1460189570
+[09-Apr-2016 17:12:50 Asia/Tokyo] デバッグ：ログイン期限：1462781404
+[09-Apr-2016 17:12:50 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 17:12:54 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 17:12:54 Asia/Tokyo] デバッグ：セッションID：00a4a5bccb485ade9137f87e2cf092bf
+[09-Apr-2016 17:12:54 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460189404
+    [login_limit] => 2592000
+)
+
+[09-Apr-2016 17:12:54 Asia/Tokyo] デバッグ：現在日時：1460189574
+[09-Apr-2016 17:12:54 Asia/Tokyo] デバッグ：ログイン期限：1462781404
+[09-Apr-2016 17:12:54 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 17:51:23 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 17:51:23 Asia/Tokyo] デバッグ：セッションID：03d69c4278220c0805ff157749b23a45
+[09-Apr-2016 17:51:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460189404
+    [login_limit] => 2592000
+)
+
+[09-Apr-2016 17:51:23 Asia/Tokyo] デバッグ：現在日時：1460191883
+[09-Apr-2016 17:51:23 Asia/Tokyo] デバッグ：ログイン期限：1462781404
+[09-Apr-2016 17:51:23 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 17:51:23 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Apr-2016 17:51:45 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[09-Apr-2016 17:51:45 Asia/Tokyo] デバッグ：セッションID：4a11dd61c3ff89ab43a4559d5cb4931d
+[09-Apr-2016 17:51:45 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460189404
+    [login_limit] => 2592000
+)
+
+[09-Apr-2016 17:51:45 Asia/Tokyo] デバッグ：現在日時：1460191905
+[09-Apr-2016 17:51:45 Asia/Tokyo] デバッグ：ログイン期限：1462781404
+[09-Apr-2016 17:51:45 Asia/Tokyo] デバッグ：POST送信あり
+[09-Apr-2016 17:51:45 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Apr-2016 02:04:52 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Apr-2016 02:04:52 Asia/Tokyo] デバッグ：セッションID：038edbb806f6f6b6562b7a65363b3eb8
+[10-Apr-2016 02:04:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460189404
+    [login_limit] => 2592000
+)
+
+[10-Apr-2016 02:04:52 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1460221492
+[10-Apr-2016 02:04:52 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1462781404
+[10-Apr-2016 02:04:52 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[10-Apr-2016 02:04:52 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[10-Apr-2016 02:04:52 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[10-Apr-2016 02:04:52 Asia/Tokyo] デバッグ：POST送信があります。
+[10-Apr-2016 02:04:52 Asia/Tokyo] デバッグ：バリデーションOKです。
+[10-Apr-2016 02:04:52 Asia/Tokyo] デバッグ：パスワードがアンマッチです。
+[10-Apr-2016 02:04:52 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Apr-2016 02:04:58 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Apr-2016 02:04:58 Asia/Tokyo] デバッグ：セッションID：7e409e7c5af4697b644d30e0712a8fca
+[10-Apr-2016 02:04:58 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460221492
+    [login_limit] => 2592000
+)
+
+[10-Apr-2016 02:04:58 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1460221498
+[10-Apr-2016 02:04:58 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1462813492
+[10-Apr-2016 02:04:58 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[10-Apr-2016 02:04:58 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[10-Apr-2016 02:04:58 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[10-Apr-2016 02:04:58 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Apr-2016 02:06:01 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Apr-2016 02:06:01 Asia/Tokyo] デバッグ：セッションID：207db1576b63ae43bfe6c7a6c07d218d
+[10-Apr-2016 02:06:01 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[10-Apr-2016 02:06:01 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1460221561
+[10-Apr-2016 02:06:01 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[10-Apr-2016 02:06:01 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Apr-2016 02:06:11 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Apr-2016 02:06:11 Asia/Tokyo] デバッグ：セッションID：4dd7e3b48fc0b9a9a2451fabbeed0521
+[10-Apr-2016 02:06:11 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[10-Apr-2016 02:06:11 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1460221571
+[10-Apr-2016 02:06:11 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[10-Apr-2016 02:06:11 Asia/Tokyo] デバッグ：POST送信があります。
+[10-Apr-2016 02:06:11 Asia/Tokyo] デバッグ：バリデーションOKです。
+[10-Apr-2016 02:06:11 Asia/Tokyo] デバッグ：パスワードがアンマッチです。
+[10-Apr-2016 02:06:11 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Apr-2016 02:06:18 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Apr-2016 02:06:18 Asia/Tokyo] デバッグ：セッションID：4e131f937eb3d5d8b3166a8988e2b923
+[10-Apr-2016 02:06:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[10-Apr-2016 02:06:18 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1460221578
+[10-Apr-2016 02:06:18 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[10-Apr-2016 02:06:18 Asia/Tokyo] デバッグ：POST送信があります。
+[10-Apr-2016 02:06:18 Asia/Tokyo] デバッグ：バリデーションOKです。
+[10-Apr-2016 02:06:18 Asia/Tokyo] デバッグ：パスワードがアンマッチです。
+[10-Apr-2016 02:06:18 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Apr-2016 02:06:22 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Apr-2016 02:06:22 Asia/Tokyo] デバッグ：セッションID：11fd733859247ce46a4814a2715260f5
+[10-Apr-2016 02:06:22 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[10-Apr-2016 02:06:22 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1460221582
+[10-Apr-2016 02:06:22 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[10-Apr-2016 02:06:22 Asia/Tokyo] デバッグ：POST送信があります。
+[10-Apr-2016 02:06:22 Asia/Tokyo] デバッグ：バリデーションOKです。
+[10-Apr-2016 02:06:22 Asia/Tokyo] デバッグ：パスワードがアンマッチです。
+[10-Apr-2016 02:06:22 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Apr-2016 02:06:45 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Apr-2016 02:06:45 Asia/Tokyo] デバッグ：セッションID：1e1ad0b5f98faaa210f3acf5f490aebc
+[10-Apr-2016 02:06:45 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[10-Apr-2016 02:06:45 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1460221605
+[10-Apr-2016 02:06:45 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[10-Apr-2016 02:06:45 Asia/Tokyo] デバッグ：POST送信があります。
+[10-Apr-2016 02:06:45 Asia/Tokyo] デバッグ：バリデーションOKです。
+[10-Apr-2016 02:06:45 Asia/Tokyo] デバッグ：パスワードがアンマッチです。
+[10-Apr-2016 02:06:45 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Apr-2016 02:06:49 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Apr-2016 02:06:49 Asia/Tokyo] デバッグ：セッションID：3171a16167fe80a2754968964b9eb0e8
+[10-Apr-2016 02:06:49 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[10-Apr-2016 02:06:49 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1460221609
+[10-Apr-2016 02:06:49 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[10-Apr-2016 02:06:49 Asia/Tokyo] デバッグ：POST送信があります。
+[10-Apr-2016 02:06:49 Asia/Tokyo] デバッグ：バリデーションOKです。
+[10-Apr-2016 02:06:49 Asia/Tokyo] デバッグ：パスワードがアンマッチです。
+[10-Apr-2016 02:06:49 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Apr-2016 02:08:09 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Apr-2016 02:08:09 Asia/Tokyo] デバッグ：セッションID：855f47796976b4d61bed8dbd299c5e3f
+[10-Apr-2016 02:08:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[10-Apr-2016 02:08:09 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1460221689
+[10-Apr-2016 02:08:09 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[10-Apr-2016 02:08:09 Asia/Tokyo] デバッグ：POST送信があります。
+[10-Apr-2016 02:08:09 Asia/Tokyo] デバッグ：バリデーションOKです。
+[10-Apr-2016 02:08:09 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [id] => 42
+    [password] => $2y$10$/hPp6sFxVTLtgIkVPdZVVeNyvp/4.nqpic0vpkHTczyd.A7kgOxU.
+)
+
+[10-Apr-2016 02:08:09 Asia/Tokyo] デバッグ：パスワードがアンマッチです。
+[10-Apr-2016 02:08:09 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Apr-2016 02:08:52 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Apr-2016 02:08:52 Asia/Tokyo] デバッグ：セッションID：0ed383e9b5dea1ed0ff13d0aef5eefe7
+[10-Apr-2016 02:08:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[10-Apr-2016 02:08:52 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1460221732
+[10-Apr-2016 02:08:52 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[10-Apr-2016 02:08:52 Asia/Tokyo] デバッグ：POST送信があります。
+[10-Apr-2016 02:08:52 Asia/Tokyo] デバッグ：バリデーションOKです。
+[10-Apr-2016 02:08:52 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$/hPp6sFxVTLtgIkVPdZVVeNyvp/4.nqpic0vpkHTczyd.A7kgOxU.
+    [id] => 42
+)
+
+[10-Apr-2016 02:08:52 Asia/Tokyo] デバッグ：パスワードがマッチしました。
+[10-Apr-2016 02:08:52 Asia/Tokyo] デバッグ：ログイン保持にチェックはありません。
+[10-Apr-2016 02:08:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460221732
+    [login_limit] => 3600
+    [user_id] => 42
+)
+
+[10-Apr-2016 02:08:52 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[10-Apr-2016 02:08:52 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Apr-2016 02:09:05 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Apr-2016 02:09:05 Asia/Tokyo] デバッグ：セッションID：b314d3894c6b59ca1971e3a5414e9d97
+[10-Apr-2016 02:09:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460221732
+    [login_limit] => 3600
+    [user_id] => 42
+)
+
+[10-Apr-2016 02:09:05 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1460221745
+[10-Apr-2016 02:09:05 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1460225332
+[10-Apr-2016 02:09:05 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[10-Apr-2016 02:09:05 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[10-Apr-2016 02:09:05 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[10-Apr-2016 02:09:05 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Apr-2016 02:11:20 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Apr-2016 02:11:20 Asia/Tokyo] デバッグ：セッションID：a56aa34113c3b7c2f1d79cf7de232231
+[10-Apr-2016 02:11:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460221745
+    [login_limit] => 3600
+    [user_id] => 42
+)
+
+[10-Apr-2016 02:11:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1460221880
+[10-Apr-2016 02:11:20 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1460225345
+[10-Apr-2016 02:11:20 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[10-Apr-2016 02:11:20 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[10-Apr-2016 02:11:20 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[10-Apr-2016 02:11:20 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「　 ログインページ　
+[10-Apr-2016 02:11:20 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Apr-2016 02:11:39 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Apr-2016 02:11:39 Asia/Tokyo] デバッグ：セッションID：d957241d87d13f5b8db564fd49ad3088
+[10-Apr-2016 02:11:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460221880
+    [login_limit] => 3600
+    [user_id] => 42
+)
+
+[10-Apr-2016 02:11:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1460221899
+[10-Apr-2016 02:11:39 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1460225480
+[10-Apr-2016 02:11:39 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[10-Apr-2016 02:11:39 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[10-Apr-2016 02:11:39 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[10-Apr-2016 02:11:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「　 ログインページ　
+[10-Apr-2016 02:11:39 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Apr-2016 02:12:37 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Apr-2016 02:12:37 Asia/Tokyo] デバッグ：セッションID：ed35938f11ffd64d766935f56c28da3f
+[10-Apr-2016 02:12:37 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460221899
+    [login_limit] => 3600
+    [user_id] => 42
+)
+
+[10-Apr-2016 02:12:37 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1460221957
+[10-Apr-2016 02:12:37 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1460225499
+[10-Apr-2016 02:12:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「　 ログインページ　
+[10-Apr-2016 02:12:37 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[10-Apr-2016 02:12:37 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[10-Apr-2016 02:12:37 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[10-Apr-2016 02:12:37 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Apr-2016 02:17:27 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「　 ログインページ　
+[10-Apr-2016 02:17:27 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Apr-2016 02:17:27 Asia/Tokyo] デバッグ：セッションID：c49e2374851bffcd6940cfbbec48d9ae
+[10-Apr-2016 02:17:27 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460221957
+    [login_limit] => 3600
+    [user_id] => 42
+)
+
+[10-Apr-2016 02:17:27 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1460222247
+[10-Apr-2016 02:17:27 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1460225557
+[10-Apr-2016 02:17:27 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[10-Apr-2016 02:17:27 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[10-Apr-2016 02:17:27 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[10-Apr-2016 02:17:27 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Apr-2016 02:18:24 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[10-Apr-2016 02:18:24 Asia/Tokyo] デバッグ：「　ログインページ　
+[10-Apr-2016 02:18:24 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[10-Apr-2016 02:18:24 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Apr-2016 02:18:24 Asia/Tokyo] デバッグ：セッションID：e8cede7f864ccadfd2cca668f3628e01
+[10-Apr-2016 02:18:24 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460222247
+    [login_limit] => 3600
+    [user_id] => 42
+)
+
+[10-Apr-2016 02:18:24 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1460222304
+[10-Apr-2016 02:18:24 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1460225847
+[10-Apr-2016 02:18:24 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[10-Apr-2016 02:18:24 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[10-Apr-2016 02:18:24 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[10-Apr-2016 02:18:24 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Apr-2016 02:18:45 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[10-Apr-2016 02:18:45 Asia/Tokyo] デバッグ：「　ログインページ　
+[10-Apr-2016 02:18:45 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[10-Apr-2016 02:18:45 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Apr-2016 02:18:45 Asia/Tokyo] デバッグ：セッションID：f79ff38a78f2800043e5e0f16d3350c4
+[10-Apr-2016 02:18:45 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460222304
+    [login_limit] => 3600
+    [user_id] => 42
+)
+
+[10-Apr-2016 02:18:45 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1460222325
+[10-Apr-2016 02:18:45 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1460225904
+[10-Apr-2016 02:18:45 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[10-Apr-2016 02:18:45 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[10-Apr-2016 02:18:45 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[10-Apr-2016 02:18:45 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Apr-2016 02:20:04 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[10-Apr-2016 02:20:04 Asia/Tokyo] デバッグ：「　ログインページ　
+[10-Apr-2016 02:20:04 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[10-Apr-2016 02:20:04 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Apr-2016 02:20:04 Asia/Tokyo] デバッグ：セッションID：6328c61dd54e14c12d25753971527311
+[10-Apr-2016 02:20:04 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1460222325
+    [login_limit] => 3600
+    [user_id] => 42
+)
+
+[10-Apr-2016 02:20:04 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1460222404
+[10-Apr-2016 02:20:04 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1460225925
+[10-Apr-2016 02:20:04 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[10-Apr-2016 02:20:04 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[10-Apr-2016 02:20:04 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[10-Apr-2016 02:20:04 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jan-2019 18:12:45 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jan-2019 18:12:45 Asia/Tokyo] デバッグ：「　ログインページ　
+[31-Jan-2019 18:12:45 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jan-2019 18:12:45 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[31-Jan-2019 18:12:45 Asia/Tokyo] デバッグ：セッションID：anb9fr1bedi49nr88615jgchea
+[31-Jan-2019 18:12:45 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jan-2019 18:12:45 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1548925965
+[31-Jan-2019 18:12:45 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[31-Jan-2019 18:12:45 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jan-2019 18:31:17 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jan-2019 18:31:17 Asia/Tokyo] デバッグ：「　ログインページ　
+[31-Jan-2019 18:31:17 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jan-2019 18:31:17 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[31-Jan-2019 18:31:17 Asia/Tokyo] デバッグ：セッションID：k5l2lulor88sj59gqc0fmvrqkr
+[31-Jan-2019 18:31:17 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jan-2019 18:31:17 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1548927077
+[31-Jan-2019 18:31:17 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[31-Jan-2019 18:31:17 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
