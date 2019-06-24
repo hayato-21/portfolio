@@ -12,7 +12,7 @@
     
 </head>
 
-<body class="page-home page-1colum">
+<body class="page-home page-2colum">
    
   <!-- メニュー -->
   <header>
@@ -37,7 +37,7 @@
          <div class="selectbox">
            <span class="icn_select"></span>
            <select name="category" id="">
-             <option value="1">html＆css/option>
+             <option value="1">html＆css</option>
              <option value="2">Javascript＆jQuery</option>
              <option value="3">php＆mysql</option>
              <option value="4">Java</option>
@@ -48,8 +48,8 @@
          <div class="selectbox">
            <span class="icn_select"></span>
            <select name="sort">
-             <option value="1">考え中 キーワード検索</option>
-             <option value="2">考え中</option>
+             <option value="1">時間が少ない順</option>
+             <option value="2">時間が多い順</option>
            </select>
          </div>
          <input type="submit" value="検索">
@@ -60,19 +60,109 @@
      <section id="main">
        <div class="search-title">
          <div class="search-left">
-           <span class="total-num">104</span>件の商品が見つかりました
+           <span class="total-num">104</span>件の記録が見つかりました
          </div>
          <div class="search-right">
            <span class="num">1</span> - <span class="num">20</span>件 / <span class="num">104</span>件中
          </div>
        </div>
+       <!-- パネルリスト -->
        <div class="panel-list">
-         <a href="log-Detail.html">
-           <div class=""></div>
+         <a href="logDetail.html" class="panel">
+           <div class="panel-head">
+             <div class="panel-left">
+               <img src="images/user1.jpg" alt="ユーザー">
+               <p class="username" style="color:#333;">ユーザー1</p>
+             </div>
+             <div class="panel-center">
+               <span class="studytime">1時間</span>
+             </div>
+             <div class="panel-right">
+               <img src="images/study-content1%20.jpg" alt="コンテント">
+               <p class="contentname" style="color:#333;">php</p>
+             </div>
+           </div>
+           <div class="panel-body">
+             <p style="color:#333;">ここには、勉強の内容が入ります。サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>  
+           </div>
          </a>
+           
+        <a href="logDetail.html" class="panel">
+           <div class="panel-head">
+             <div class="panel-left">
+               <img src="images/user2.jpg" alt="ユーザー">
+               <p class="username" style="color:#333;">ユーザー2</p>
+             </div>
+             <div class="panel-center">
+               <span class="studytime">3時間</span>
+             </div>
+             <div class="panel-right">
+               <img src="images/study-content1%20.jpg" alt="コンテント">
+               <p class="contentname" style="color:#333;">js</p>
+             </div>
+           </div>
+           <div class="panel-body">
+             <p style="color:#333;">ここには、勉強の内容が入ります。サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>  
+           </div>
+         </a>
+           
+        <a href="logDetail.html" class="panel">
+           <div class="panel-head">
+             <div class="panel-left">
+               <img src="images/user3.jpg" alt="ユーザー">
+               <p class="username" style="color:#333;">ユーザー3</p>
+             </div>
+             <div class="panel-center">
+               <span class="studytime">5時間</span>
+             </div>
+             <div class="panel-right">
+               <img src="images/study-content1%20.jpg" alt="コンテント">
+               <p class="contentname" style="color:#333;">Java</p>
+             </div>
+           </div>
+           <div class="panel-body">
+             <p style="color:#333;">ここには、勉強の内容が入ります。サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>  
+           </div>
+         </a>
+           
+        <a href="logDetail.html" class="panel">
+           <div class="panel-head">
+             <div class="panel-left">
+               <img src="images/user4.jpg" alt="ユーザー">
+               <p class="username" style="color:#333;">ユーザー4</p>
+             </div>
+             <div class="panel-center">
+               <span class="studytime">2時間</span>
+             </div>
+             <div class="panel-right">
+               <img src="images/study-content1%20.jpg" alt="コンテント">
+               <p class="contentname" style="color:#333;">その他</p>
+             </div>
+           </div>
+           <div class="panel-body">
+             <p style="color:#333;">ここには、勉強の内容が入ります。サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>  
+           </div>
+         </a>
+       </div>
+    
+       <!-- ページネーション -->
+       <div class="pagination">
+         <ul class="pagination-list">
+           <li class="list-item"><a href="">&lt;&lt;</a></li>  
+           <li class="list-item"><a href="">1</a></li>  
+           <li class="list-item"><a href="">2</a></li>  
+           <li class="list-item active"><a href="">3</a></li>  
+           <li class="list-item"><a href="">4</a></li>  
+           <li class="list-item"><a href="">5</a></li>  
+           <li class="list-item"><a href="">&gt;&gt;</a></li>  
+         </ul>  
        </div>
      </section>
    </diV>
     
+   <!-- footer -->
+   <footer>
+    Copyright <a href="">We Study</a>. All Rights Reserved.
+   </footer>
 </body>
 </html>
