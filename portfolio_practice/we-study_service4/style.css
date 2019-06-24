@@ -21,6 +21,12 @@ a:focus{
 a:hover{
     text-decoration: none;
 }
+#sidebar a{
+    color: #b6a489;
+}
+.list-table a{
+    color: #b6a489;
+}
 /*=========================
   ヘッダー
 ==========================*/
@@ -91,13 +97,26 @@ nav a:hover{
 .paga-logined #main{
   box-sizing: border-box;
 }
-/* 
-.page-logined #main
-section h1.title
-*/
+.page-logined #main{
+  border: 5px solid #f1f1f1;
+  box-sizing: border-box;
+}
+
+section h1.title {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
 #contents{
     overflow: hidden;
     margin: 20px auto;
+}
+/* ページタイトル */
+
+.page-title {
+  margin-bottom: 50px;
+  padding-top: 20px; /* Lesson14にて追加 */
+  text-align: center;
+  font-size: 32px;
 }
 /*======================
   サイドバー
@@ -108,7 +127,7 @@ section h1.title
     box-sizing: border-box;
     margin-right: 20px;
     padding: 15px;
-    min-height: 600px;
+    min-height: 500px;
     width: 200px;
     background: #f6f5f4;  /* todo background */
 }
@@ -143,15 +162,20 @@ section h1.title
     border-left: 7px solid transparent;
     content: "";
 }
-/*.page-logined #sidebar
-.page-logined #sidebar > a*/
+.page-logined #sidebar{
+  margin: 0 0 0 20px;
+}
+.page-logined #sidebar > a{
+  display: block;
+  margin-bottom: 15px;
+}
 /*========================================
   フッター
 ========================================*/
 footer{
     padding: 15px;
     width: 100%;
-    background: #333;
+    background:  linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%);
     color: #f6f5f4;
     text-align: center;
     font-size: 12px;
@@ -229,6 +253,7 @@ footer a{
     height: 500px;
     overflow-y:scroll;
     padding: 15px;
+    margin-right: 10px;
 }
 .panel-list > .panel{
     float: left;
@@ -278,20 +303,191 @@ footer a{
     padding: 10px;
     font-size: 14px;
 }
+/* テーブルリスト
+========================================*/
+
+.list-table > table {
+  width: 100%;
+  border-spacing: 0 5px;
+}
+
+.list-table th,
+.list-table td {
+  padding: 5px;
+}
+.list-table th{
+  text-align: left;
+}
+
+.list-table > .table > tbody td {
+  border-right: none;
+  background: #f6f5f4;
+}
 /*=====================================
   ボタン
 ======================================*/
-
+.btn{
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.btn:hover{
+    text-decoration: none;
+}
+.btn.btn-primary{
+    background: #FA6964;
+    color: white;
+}
+.btn.btn-mid {
+  max-width: 150px;
+}
 /*=====================================
   フォーム
 ======================================*/
-input[type="submit"]{
+label{
+  display: block;
+}
+label.err input, label.err select{
+  background: #f7dcd9;
+}
+input[type="text"], input[type="password"], input[type="number"], .form select,
+textarea {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+  height: 60px;
+  border: none;
+  background: #f6f5f5;
+  font-size: 18px;
+}
+input[type="checkbox"]{
+  width: 18px;
+  height: 18px;
+  background: #f6f5f5;
+  vertical-align: middle;
+}
+input[type="number"] {
+  width: 100px;
+  text-align: left;
+}
+input[type="submit"] {
+  margin: 15px 0;
+  padding: 15px 30px;
+  width: 100%;
+  border: none;
+  background: skyblue;
+  color: white;
   font-size: 14px;
-    margin: 15px 0;
-    padding: 15px 30px;
-    width: 100%;
-    border: none;
-    color: white;
-    background: skyblue;
-    font-weight: bold;
+}
+
+select:hover,
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.form-container {
+  margin: 0 auto;
+}
+.page-1colum .form-container{
+  margin: 80px auto;
+}
+
+.form {
+  margin: 0 auto;
+  padding: 30px;
+  width: 400px;
+  border: 5px solid #f1f1f1;
+}
+.form .label-require{
+  margin-left: 5px;
+  background: #fe8a8b;
+  font-size: 14px;
+  padding: 3px 5px;
+  color: white;
+  vertical-align: bottom;
+}
+.page-logined .form{
+  border: none;
+}
+
+.form .title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.form .area-msg{
+  padding: 0 0 15px 0;
+  color: red;
+}
+
+.form .btn-container {
+   overflow: hidden; 
+}
+
+.form .btn {
+  float: right;
+}
+.form .area-drop{
+  margin-bottom: 15px;
+  width: 100%;
+  height: 140px;
+  background: #f6f5f4;
+  color: #ccc;
+  text-align: center;
+  line-height: 150px;
+  position: relative;
+  box-sizing: border-box;
+}
+.form .input-file{
+  opacity:0;
+  width:100%;
+  height:140px;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index: 2; /* 必ずz-indexをつけないと登録画像を変更する際にドラッグ＆ドロップできなくなる*/
+}
+.form .prev-img{
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+}
+.form .imgDrop-container{
+  width: 33.333%;
+  float: left;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+.form .counter-text{
+  text-align: right;
+}
+/* フォームグループ
+=================================*/
+.form-group{
+  overflow: hidden;
+  position: relative;
+}
+.form-group > input{
+  float: left;
+}
+.form-group > .option{
+  float: left;
+  position: relative;
+  top: 40px;
+  display: block;
+  padding-left: 10px;
+}
+/*========================================
+  その他
+========================================*/
+.msg-slide{
+  position: fixed;
+  top: 0;
+  width:100%;
+  height:40px;
+  background: rgba(122,206,230,0.6);
+  text-align: center;
+  font-size:16px;
+  line-height: 40px;
 }
